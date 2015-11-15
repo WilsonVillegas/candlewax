@@ -1,7 +1,7 @@
-/Binaries
-/DerivedDataCache
-/Intermediate
-/Saved
+CandleProject/Binaries
+CandleProject/DerivedDataCache
+CandleProject/Intermediate
+CandleProject/Saved
 *.sdf
 *.suo
 *.opensdf
