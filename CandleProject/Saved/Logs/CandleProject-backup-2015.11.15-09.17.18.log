@@ -1,0 +1,1414 @@
+﻿[2015.11.10-23.25.05:718][  0]Log file open, 11/10/15 17:25:05
+[2015.11.10-23.25.05:718][  0]LogInit:Display: Running engine for game: CandleProject
+[2015.11.10-23.25.05:718][  0]LogInit:Display: RandInit(1275286106) SRandInit(1275286106).
+[2015.11.10-23.25.05:718][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.10-23.25.05:718][  0]LogStats: Stats thread started at 0.066531
+[2015.11.10-23.25.05:718][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-23.25.05:718][  0]LogInit: API Version: 2672455
+[2015.11.10-23.25.05:718][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.10-23.25.05:718][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.10-23.25.05:718][  0]LogInit: Build Configuration: Development
+[2015.11.10-23.25.05:718][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.10-23.25.05:718][  0]LogInit: Command line: 
+[2015.11.10-23.25.05:718][  0]LogInit: Base directory: D:/Programs/Unreal Engine 4/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.10-23.25.05:718][  0]LogInit: Rocket: 1
+[2015.11.10-23.25.05:724][  0]LogInit: Using libcurl 7.41.0
+[2015.11.10-23.25.05:724][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.10-23.25.05:724][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.10-23.25.05:724][  0]LogInit:  - other features:
+[2015.11.10-23.25.05:724][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.10-23.25.05:724][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.10-23.25.05:724][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.10-23.25.05:724][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.10-23.25.05:724][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.10-23.25.05:725][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.10-23.25.05:725][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.10-23.25.05:725][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.10-23.25.05:725][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.10-23.25.05:725][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.10-23.25.05:730][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.10-23.25.05:735][  0]LogInit: Object subsystem initialized
+[2015.11.10-23.25.05:736][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-23.25.05:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.10-23.25.05:741][  0]LogInit: Computer: CINDY-PC
+[2015.11.10-23.25.05:741][  0]LogInit: User: Cindy
+[2015.11.10-23.25.05:741][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.10-23.25.05:741][  0]LogInit: High frequency timer resolution =3.904013 MHz
+[2015.11.10-23.25.05:741][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.10-23.25.05:741][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.10-23.25.05:741][  0]LogMemory: Process Physical Memory: 54.36 MB used, 54.36 MB peak
+[2015.11.10-23.25.05:741][  0]LogMemory: Process Virtual Memory: 59.20 MB used, 59.20 MB peak
+[2015.11.10-23.25.05:741][  0]LogMemory: Physical Memory: 3848.68 MB used, 16326.84 MB total
+[2015.11.10-23.25.05:741][  0]LogMemory: Virtual Memory: 340.23 MB used, 8388608.00 MB total
+[2015.11.10-23.25.05:769][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.10-23.25.06:304][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.11.10-23.25.06:304][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7907MB of shared system memory, 2 output[s]
+[2015.11.10-23.25.06:304][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.10-23.25.06:307][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.10-23.25.06:307][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.10-23.25.06:316][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.10-23.25.06:328][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/WorkingDirectory/4616/).
+[2015.11.10-23.25.06:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/tmp/765E08B34F49606B083D44B0512BC0D6/'.
+[2015.11.10-23.25.06:329][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.10-23.25.07:172][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.10-23.25.07:175][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.10-23.25.07:179][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.10-23.25.07:183][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.10-23.25.07:187][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.10-23.25.07:190][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.10-23.25.07:192][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.10-23.25.07:195][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.10-23.25.07:197][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.10-23.25.07:199][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.10-23.25.07:202][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.10-23.25.07:204][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.10-23.25.07:205][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.10-23.25.07:219][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.10-23.25.07:221][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.10-23.25.07:223][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.10-23.25.07:226][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.10-23.25.07:226][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.10-23.25.07:289][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.10-23.25.07:319][  0]LogDerivedDataCache: Loaded boot cache 0.03s 44MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-23.25.07:320][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.10-23.25.07:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.10-23.25.07:320][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.10-23.25.07:320][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.10-23.25.07:320][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.10-23.25.07:421][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.10-23.25.07:431][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cindy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.10-23.25.07:548][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.10-23.25.07:548][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.10-23.25.07:566][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.10-23.25.07:566][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.10-23.25.07:812][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.10-23.25.08:355][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.10-23.25.08:478][  0]LogAssetRegistry: FAssetRegistry took 0.0103 seconds to start up
+[2015.11.10-23.25.08:600][  0]SourceControl: Info Source control is disabled
+[2015.11.10-23.25.08:619][  0]SourceControl: Info Source control is disabled
+[2015.11.10-23.25.08:628][  0]SourceControl: Info Source control is disabled
+[2015.11.10-23.25.08:636][  0]SourceControl: Info Source control is disabled
+[2015.11.10-23.25.08:749][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-23.25.08:809][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.10-23.25.08:809][  0]LogUObjectAllocator: 6038864 out of 0 bytes used by permanent object pool.
+[2015.11.10-23.25.08:852][  0]LogEngine: Initializing Engine...
+[2015.11.10-23.25.08:853][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.10-23.25.08:854][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.10-23.25.08:947][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.10-23.25.08:954][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.25.08:972][  0]LogInit: FAudioDevice initialized.
+[2015.11.10-23.25.08:989][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.10-23.25.08:991][  0]LogInit: Texture streaming: Enabled
+[2015.11.10-23.25.08:996][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.10-23.25.08:996][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.10-23.25.08:996][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9fcbc173422a7138b3bba1a9c3fd03f3|b24dd545970c43d78826f53370189a64|8c5db416-acae-4836-b409-4af6731ed691
+[2015.11.10-23.25.08:996][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.10-23.25.09:031][  0]LogInit: Transaction tracking system initialized
+[2015.11.10-23.25.09:054][  0]BlueprintLog: New page: Editor Load
+[2015.11.10-23.25.09:116][  0]LocalizationService: Info Localization service is disabled
+[2015.11.10-23.25.09:174][  0]LogConsoleResponse:Display: 
+[2015.11.10-23.25.09:262][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.10-23.25.09:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/' took 0.01s
+[2015.11.10-23.25.09:314][  0]SourceControl: Info Source control is disabled
+[2015.11.10-23.25.09:314][  0]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-23.25.09:318][  0]LightingResults: New page: Lighting Build
+[2015.11.10-23.25.09:323][  0]MapCheck: New page: Map Check
+[2015.11.10-23.25.09:323][  0]LightingResults: New page: Lighting Build
+[2015.11.10-23.25.09:335][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002447A160
+[2015.11.10-23.25.09:432][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-23.25.09:434][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-23.25.10:316][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.10-23.25.10:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-23.25.10:322][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-23.25.10:372][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.696ms to complete.
+[2015.11.10-23.25.10:372][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.058
+[2015.11.10-23.25.11:259][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.10-23.25.11:280][  0]LogCollectionManager: Loaded 0 collections in 0.001648 seconds
+[2015.11.10-23.25.11:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Collections/' took 0.01s
+[2015.11.10-23.25.11:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Developers/Cindy/Collections/' took 0.01s
+[2015.11.10-23.25.11:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Collections/' took 0.01s
+[2015.11.10-23.25.11:319][  0]LogContentBrowser: Native class hierarchy populated in 0.0052 seconds. Added 1869 classes and 338 folders.
+[2015.11.10-23.25.11:327][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.10-23.25.11:333][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.11.10-23.25.12:365][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.10-23.25.12:367][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.10-23.25.12:387][  0]LogLoad: Full Startup: 7.03 seconds (BP compile: 0.08 seconds)
+[2015.11.10-23.25.12:396][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.11.10-23.25.12:581][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.10-23.25.12:721][  1]LogRenderer: Reallocating scene render targets to support 1032x624 (Frame:2).
+[2015.11.10-23.25.12:994][  4]LogAssetRegistry: Asset discovery search completed in 4.5258 seconds
+[2015.11.10-23.25.12:994][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.10-23.25.12:994][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2015.11.10-23.26.15:767][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.26.15:767][931]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.10-23.26.18:985][931]LogSavePackage: Save=4.274832ms
+[2015.11.10-23.26.18:985][931]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy2A16B5A7E4CE2036B2D0758BC22EECF9F.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.10-23.26.18:985][931]LogSavePackage: Total save time: 5.432613ms
+[2015.11.10-23.26.18:986][931]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.10-23.26.18:986][931]LogFileHelpers: Saving map 'Whitebox_cindy2' took 0.063
+[2015.11.10-23.26.18:988][931]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.10-23.26.18:988][931]LightingResults: New page: Lighting Build
+[2015.11.10-23.26.19:003][931]LoadErrors: New page: Loading map: Whitebox_cindy2.umap
+[2015.11.10-23.26.19:004][931]MapCheck: New page: Map Check
+[2015.11.10-23.26.19:004][931]LightingResults: New page: Lighting Build
+[2015.11.10-23.26.19:012][931]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010EA6200
+[2015.11.10-23.26.19:038][931]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.10-23.26.19:038][931]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.26.19:059][931]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.10-23.26.19:104][931]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.681ms to complete.
+[2015.11.10-23.26.19:105][931]LogFileHelpers: Loading map 'Whitebox_cindy2' took 0.119
+[2015.11.10-23.26.20:482][ 82]LogRenderer: Reallocating scene render targets to support 1516x936 (Frame:6459).
+[2015.11.10-23.26.58:190][463]LogEditorViewport: Clicking Background
+[2015.11.10-23.27.05:523][332]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2015.11.10-23.27.07:158][524]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2015.11.10-23.27.11:139][945]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.11.10-23.27.13:958][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.27.13:958][277]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.11.10-23.27.13:974][277]LogSavePackage: Save=5.655975ms
+[2015.11.10-23.27.13:974][277]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy24D9F64BD4D0DC5E1357BA49960FFA422.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.10-23.27.13:975][277]LogSavePackage: Total save time: 9.346280ms
+[2015.11.10-23.27.13:975][277]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.10-23.27.26:131][719]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (AtmosphericFog)
+[2015.11.10-23.27.26:440][754]Cmd: DELETE
+[2015.11.10-23.27.26:440][754]Cmd: ACTOR DELETE
+[2015.11.10-23.27.26:441][754]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.11.10-23.27.26:448][754]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2015.11.10-23.27.28:535][996]Cmd: DELETE
+[2015.11.10-23.27.28:535][996]Cmd: ACTOR DELETE
+[2015.11.10-23.27.28:535][996]LogEditorActor: Deleted Actor: AtmosphericFog
+[2015.11.10-23.27.28:543][996]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2015.11.10-23.27.48:765][410]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.28.21:063][211]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.29.42:690][752]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.10-23.30.31:904][904]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.30.51:693][167]Cmd: TRANSACTION UNDO
+[2015.11.10-23.30.51:693][167]LogEditorTransaction: Undo Edit X
+[2015.11.10-23.31.02:112][379]Cmd: TRANSACTION UNDO
+[2015.11.10-23.31.02:112][379]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.31.02:623][417]Cmd: TRANSACTION UNDO
+[2015.11.10-23.31.02:623][417]LogEditorTransaction: Undo Edit Y
+[2015.11.10-23.31.03:194][480]Cmd: TRANSACTION UNDO
+[2015.11.10-23.31.03:194][480]LogEditorTransaction: Undo Edit Y
+[2015.11.10-23.32.15:194][973]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.16:124][ 83]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.17:672][266]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.23:136][834]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.27:023][269]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.27:393][312]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.27:827][363]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.28:195][406]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.31:948][813]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.45:450][240]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.46:142][321]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.46:587][373]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.47:413][470]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.50:012][779]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.54:305][272]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.55:143][371]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.32.56:559][538]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.33.09:466][980]LogGeometryMode:Warning: Unable to find 1 Edge(s) in new BSP
+[2015.11.10-23.33.09:466][980]LogGeometryMode:Warning: Unable to resolve BoxBrush2 Brush in new BSP, see above
+[2015.11.10-23.33.09:466][980]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.33.32:402][539]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.33.36:580][  9]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.33.37:602][130]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.34.49:383][ 64]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.34.59:209][184]Cmd: DELETE
+[2015.11.10-23.34.59:209][184]Cmd: ACTOR DELETE
+[2015.11.10-23.34.59:209][184]LogEditorActor: Deleted Actor: Brush
+[2015.11.10-23.34.59:209][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.10-23.34.59:209][184]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.34.59:250][184]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.11.10-23.35.13:142][814]LogEditorViewport: Clicking Background
+[2015.11.10-23.35.13:479][853]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.11.10-23.35.14:876][ 15]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.10-23.35.15:900][137]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.10-23.35.17:232][265]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.10-23.35.26:681][346]Cmd: DELETE
+[2015.11.10-23.35.26:681][346]Cmd: ACTOR DELETE
+[2015.11.10-23.35.26:682][346]LogEditorActor: Deleted Actor: Brush
+[2015.11.10-23.35.26:696][346]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2015.11.10-23.35.29:703][702]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.37.06:640][ 28]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.37.36:995][495]Cmd: DELETE
+[2015.11.10-23.37.36:995][495]Cmd: ACTOR DELETE
+[2015.11.10-23.37.36:996][495]LogEditorActor: Deleted Actor: Brush
+[2015.11.10-23.37.37:014][495]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.11.10-23.37.49:094][535]Cmd: TRANSACTION UNDO
+[2015.11.10-23.37.49:095][535]LogEditorTransaction: Undo Edit Outer Radius
+[2015.11.10-23.39.19:063][557]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.41.06:765][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.41.06:766][ 13]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:41:06 AM)
+[2015.11.10-23.41.06:766][ 13]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.41.06:772][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006489s)
+[2015.11.10-23.41.06:773][ 13]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.41.06:773][ 13]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.11.10-23.41.06:773][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.007117s)
+[2015.11.10-23.41.06:789][ 13]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.41.06:807][ 13]LogInit: FAudioDevice initialized.
+[2015.11.10-23.41.06:886][ 13]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.10-23.41.06:938][ 13]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.41.06:941][ 13]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.41.06
+[2015.11.10-23.41.06:941][ 13]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.41.06:941][ 13]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.41.06:941][ 13]LogWorld: Bringing up level for play took: 0.002227
+[2015.11.10-23.41.06:944][ 13]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.217
+[2015.11.10-23.41.19:555][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017584D60
+[2015.11.10-23.41.35:597][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.41.35:597][311]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:41:35 AM)
+[2015.11.10-23.41.35:597][311]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.41.35:604][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006991s)
+[2015.11.10-23.41.35:605][311]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.41.35:605][311]LogPlayLevel: PIE: World Init took: (0.000434s)
+[2015.11.10-23.41.35:605][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.007565s)
+[2015.11.10-23.41.35:623][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.41.35:638][311]LogInit: FAudioDevice initialized.
+[2015.11.10-23.41.35:665][311]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.41.35:667][311]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.41.35
+[2015.11.10-23.41.35:667][311]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.41.35:668][311]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.41.35:668][311]LogWorld: Bringing up level for play took: 0.002093
+[2015.11.10-23.41.35:670][311]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.942
+[2015.11.10-23.41.41:152][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000078D0AE0
+[2015.11.10-23.41.45:945][501]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2015.11.10-23.41.50:372][998]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2015.11.10-23.41.50:372][998]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.41.57:063][762]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.41.57:716][839]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush2)
+[2015.11.10-23.42.11:117][305]LogGeometryMode:Warning: Unable to find CylinderBrush Brush(s) in new BSP
+[2015.11.10-23.42.11:117][305]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.42.12:610][470]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2015.11.10-23.42.24:243][786]LogEditorViewport: Clicking on Actor (double click): Brush (Cylinder Brush)
+[2015.11.10-23.42.29:211][367]LogGeometryMode:Warning: Unable to find BoxBrush2 Brush(s) in new BSP
+[2015.11.10-23.42.29:211][367]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.42.57:937][600]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.42.57:938][600]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:42:57 AM)
+[2015.11.10-23.42.57:938][600]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.42.57:945][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007753s)
+[2015.11.10-23.42.57:946][600]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.42.57:946][600]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2015.11.10-23.42.57:946][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.008432s)
+[2015.11.10-23.42.57:964][600]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.42.57:981][600]LogInit: FAudioDevice initialized.
+[2015.11.10-23.42.58:013][600]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.42.58:016][600]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.42.58
+[2015.11.10-23.42.58:016][600]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.42.58:016][600]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.42.58:016][600]LogWorld: Bringing up level for play took: 0.002068
+[2015.11.10-23.42.58:018][600]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.71
+[2015.11.10-23.43.15:565][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039BA7CE0
+[2015.11.10-23.44.33:398][540]Cmd: TRANSACTION UNDO
+[2015.11.10-23.44.33:398][540]LogEditorTransaction: Undo Edit Inner Radius
+[2015.11.10-23.44.33:402][540]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2015.11.10-23.44.33:404][540]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush2.BrushComponent0) Component already registered.
+[2015.11.10-23.45.13:513][ 79]Cmd: DELETE
+[2015.11.10-23.45.13:513][ 79]Cmd: ACTOR DELETE
+[2015.11.10-23.45.13:514][ 79]LogEditorActor: Deleted Actor: Character
+[2015.11.10-23.45.13:514][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.45.13:526][ 79]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2015.11.10-23.46.04:514][721]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.46.13:284][689]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.46.42:988][ 90]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.47.08:242][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.10-23.47.08:242][958]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.47.08:696][958]LogSavePackage: Save=424.704529ms
+[2015.11.10-23.47.08:696][958]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy22452E2BF4475A7B71C2112B3D07233A2.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.10-23.47.08:697][958]LogSavePackage: Total save time: 438.285682ms
+[2015.11.10-23.47.08:697][958]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.10-23.47.32:817][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.47.32:817][721]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:47:32 AM)
+[2015.11.10-23.47.32:818][721]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.47.32:826][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008481s)
+[2015.11.10-23.47.32:826][721]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.47.32:826][721]LogPlayLevel: PIE: World Init took: (0.000433s)
+[2015.11.10-23.47.32:827][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.009057s)
+[2015.11.10-23.47.32:922][721]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.47.32:962][721]LogInit: FAudioDevice initialized.
+[2015.11.10-23.47.32:999][721]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.47.33:009][721]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.47.33
+[2015.11.10-23.47.33:009][721]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.47.33:009][721]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.47.33:010][721]LogWorld: Bringing up level for play took: 0.005995
+[2015.11.10-23.47.33:014][721]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.285
+[2015.11.10-23.47.46:575][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000404DF1A0
+[2015.11.10-23.48.10:992][478]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush)
+[2015.11.10-23.49.38:493][532]Cmd: ACTOR SELECT ALL
+[2015.11.10-23.49.39:120][605]Cmd: TRANSACTION UNDO
+[2015.11.10-23.49.39:120][605]LogEditorTransaction: Undo Select All
+[2015.11.10-23.49.39:775][660]Cmd: TRANSACTION UNDO
+[2015.11.10-23.49.39:775][660]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.49.39:780][660]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush_11.BrushComponent0) Component already registered.
+[2015.11.10-23.49.39:782][660]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2015.11.10-23.49.39:782][660]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2015.11.10-23.49.40:264][712]Cmd: TRANSACTION UNDO
+[2015.11.10-23.49.40:264][712]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.49.40:665][756]Cmd: TRANSACTION UNDO
+[2015.11.10-23.49.40:665][756]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.50.14:974][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.50.14:974][655]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:50:14 AM)
+[2015.11.10-23.50.14:974][655]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.50.14:984][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009703s)
+[2015.11.10-23.50.14:984][655]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.50.14:984][655]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.11.10-23.50.14:984][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.010319s)
+[2015.11.10-23.50.14:999][655]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.50.15:016][655]LogInit: FAudioDevice initialized.
+[2015.11.10-23.50.15:044][655]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.50.15:047][655]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.50.15
+[2015.11.10-23.50.15:047][655]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.50.15:047][655]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.50.15:047][655]LogWorld: Bringing up level for play took: 0.002464
+[2015.11.10-23.50.15:049][655]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.319
+[2015.11.10-23.50.33:065][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BACD1C0
+[2015.11.10-23.50.56:007][329]Cmd: TRANSACTION UNDO
+[2015.11.10-23.50.56:007][329]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.50.56:015][329]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2015.11.10-23.50.56:015][329]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2015.11.10-23.50.59:434][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.10-23.50.59:434][677]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 11:50:59 AM)
+[2015.11.10-23.50.59:434][677]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.10-23.50.59:445][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010404s)
+[2015.11.10-23.50.59:445][677]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.10-23.50.59:445][677]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2015.11.10-23.50.59:445][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.011003s)
+[2015.11.10-23.50.59:459][677]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.10-23.50.59:475][677]LogInit: FAudioDevice initialized.
+[2015.11.10-23.50.59:505][677]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.10-23.50.59:508][677]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-17.50.59
+[2015.11.10-23.50.59:508][677]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.50.59:508][677]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.10-23.50.59:508][677]LogWorld: Bringing up level for play took: 0.002605
+[2015.11.10-23.50.59:510][677]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.779
+[2015.11.10-23.51.12:477][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000110F9440
+[2015.11.10-23.51.16:037][599]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.52.14:948][232]Cmd: TRANSACTION UNDO
+[2015.11.10-23.52.14:948][232]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.52.14:959][232]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.52.42:217][290]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.10-23.54.12:149][239]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush5)
+[2015.11.10-23.54.14:804][525]LogGeometryMode:Warning: Unable to find BoxBrush_11 Brush(s) in new BSP
+[2015.11.10-23.54.14:804][525]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.54.38:977][873]Cmd: DELETE
+[2015.11.10-23.54.38:977][873]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.54.38:977][873]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.54.38:977][873]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.54.53:622][545]Cmd: DELETE
+[2015.11.10-23.54.53:622][545]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.54.53:622][545]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.54.53:622][545]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.54.54:652][652]Cmd: DELETE
+[2015.11.10-23.54.54:653][652]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.54.54:653][652]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.54.54:653][652]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.54.58:744][128]Cmd: DELETE
+[2015.11.10-23.54.58:745][128]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.54.58:745][128]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.54.58:745][128]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.55.09:743][381]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.09:743][381]LogEditorTransaction: Undo Snap Actors To Floor
+[2015.11.10-23.55.09:750][381]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.09:751][381]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.10:020][401]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.10:020][401]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.10:037][401]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.10:037][401]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.10:042][401]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.10:042][401]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.10:548][447]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.10:548][447]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.18:053][311]Cmd: DELETE
+[2015.11.10-23.55.18:053][311]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.55.18:053][311]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.55.18:053][311]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.55.18:960][407]Cmd: DELETE
+[2015.11.10-23.55.18:960][407]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.55.18:960][407]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.55.18:960][407]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.55.29:880][616]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.29:880][616]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.55.29:889][616]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.29:890][616]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.39:437][626]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.39:437][626]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.55.39:444][626]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.39:444][626]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.39:685][639]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.39:685][639]LogEditorTransaction: Undo Move Actors
+[2015.11.10-23.55.39:691][639]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.39:692][639]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.39:902][648]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.39:902][648]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.55.40:103][664]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.40:103][664]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.55.40:300][684]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.40:300][684]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.55.40:515][707]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.40:515][707]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.40:523][707]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:523][707]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:528][707]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:529][707]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:720][726]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.40:720][726]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.40:940][750]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.40:940][750]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.40:946][750]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:946][750]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:951][750]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.40:951][750]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:156][769]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.41:156][769]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.41:533][812]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.41:533][812]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.41:540][812]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:540][812]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:545][812]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:545][812]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:744][832]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.41:744][832]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.41:943][846]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.41:944][846]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.41:961][846]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:961][846]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:974][846]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.41:974][846]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.42:128][858]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.42:128][858]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.42:347][882]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.42:347][882]LogEditorTransaction: Undo Snap Actors To Floor
+[2015.11.10-23.55.42:355][882]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.42:355][882]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.42:551][886]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.42:551][886]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.55.45:227][194]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.45:227][194]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.55.45:582][227]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.45:582][227]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.55.45:956][269]Cmd: TRANSACTION UNDO
+[2015.11.10-23.55.45:956][269]LogEditorTransaction: Undo Modifier [Delete]
+[2015.11.10-23.55.45:963][269]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush3.BrushComponent0) Component already registered.
+[2015.11.10-23.55.45:964][269]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush4_18.BrushComponent0) Component already registered.
+[2015.11.10-23.55.45:969][269]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush14.BrushComponent0) Component already registered.
+[2015.11.10-23.55.45:969][269]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush6.BrushComponent0) Component already registered.
+[2015.11.10-23.55.47:182][400]LogGeometryMode:Warning: Unable to find CylinderBrush5 Brush(s) in new BSP
+[2015.11.10-23.55.47:182][400]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.56.01:901][ 31]Cmd: DELETE
+[2015.11.10-23.56.01:901][ 31]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.56.01:901][ 31]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.56.01:901][ 31]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.56.03:527][209]Cmd: DELETE
+[2015.11.10-23.56.03:554][209]Cmd: ACTOR DELETE
+[2015.11.10-23.56.03:555][209]LogEditorActor: Deleted Actor: Brush
+[2015.11.10-23.56.03:555][209]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.56.03:605][209]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.11.10-23.56.04:602][328]Cmd: TRANSACTION UNDO
+[2015.11.10-23.56.04:602][328]LogEditorTransaction: Undo Delete Actors
+[2015.11.10-23.56.04:614][328]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2015.11.10-23.56.04:614][328]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.ConeBrush.BrushComponent0) Component already registered.
+[2015.11.10-23.56.04:614][328]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush9.BrushComponent0) Component already registered.
+[2015.11.10-23.56.14:080][397]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.56.17:999][852]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.56.47:834][305]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.56.48:311][358]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.56.48:750][408]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.56.54:921][130]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2015.11.10-23.57.06:231][387]Cmd: DELETE
+[2015.11.10-23.57.06:231][387]Cmd: ACTOR DELETE
+[2015.11.10-23.57.06:232][387]LogEditorActor: Deleted Actor: Brush
+[2015.11.10-23.57.06:232][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.10-23.57.06:268][387]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2015.11.10-23.57.07:731][561]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.07:731][561]LogEditorTransaction: Undo Delete Actors
+[2015.11.10-23.57.07:743][561]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.BoxBrush2.BrushComponent0) Component already registered.
+[2015.11.10-23.57.07:743][561]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush8.BrushComponent0) Component already registered.
+[2015.11.10-23.57.07:743][561]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush10.BrushComponent0) Component already registered.
+[2015.11.10-23.57.08:136][591]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.08:136][591]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.09:440][736]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.09:440][736]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.18:071][710]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.18:071][710]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.18:288][731]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.18:288][731]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.18:469][741]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.18:469][741]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.18:847][777]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.18:847][777]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.19:225][821]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.19:225][821]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.19:428][844]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.19:428][844]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.19:603][864]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.19:603][864]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.19:764][882]Cmd: TRANSACTION UNDO
+[2015.11.10-23.57.19:764][882]LogEditorTransaction: Undo Select Brush Surface
+[2015.11.10-23.57.29:252][941]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.57.36:810][807]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.57.37:116][841]Cmd: EDCALLBACK SURFPROPS
+[2015.11.10-23.57.46:529][934]Cmd: DELETE
+[2015.11.10-23.57.46:529][934]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.57.46:529][934]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.57.46:529][934]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.57.48:130][114]Cmd: DELETE
+[2015.11.10-23.57.48:130][114]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.57.48:130][114]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.57.48:130][114]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.57.48:810][190]Cmd: DELETE
+[2015.11.10-23.57.48:810][190]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.57.48:810][190]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.57.48:810][190]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.57.58:305][266]Cmd: DELETE
+[2015.11.10-23.57.58:305][266]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.57.58:305][266]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.57.58:305][266]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.58.01:476][631]Cmd: DELETE
+[2015.11.10-23.58.01:476][631]LogGeometryMode:Warning: Unable to find 1 Poly(s) in new BSP
+[2015.11.10-23.58.01:476][631]LogGeometryMode:Warning: Unable to resolve BoxBrush7 Brush in new BSP, see above
+[2015.11.10-23.58.01:476][631]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.58.31:820][ 22]Cmd: TRANSACTION UNDO
+[2015.11.10-23.58.31:820][ 22]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.58.37:788][661]Cmd: TRANSACTION UNDO
+[2015.11.10-23.58.37:788][661]LogEditorTransaction: Undo Modifier [Edit]
+[2015.11.10-23.58.48:449][845]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.58.52:191][248]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.58.55:323][584]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.58.58:585][956]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.00:905][215]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.01:387][271]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.04:085][569]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.19:834][ 33]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.20:423][101]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.23:808][479]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.24:391][545]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.25:241][642]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.25:860][714]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.30:710][245]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.31:530][340]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.31:873][379]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2015.11.10-23.59.43:723][640]LogGeometryMode:Warning: Unable to find CylinderBrush5 Brush(s) in new BSP
+[2015.11.10-23.59.43:723][640]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2015.11.10-23.59.45:275][801]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush6)
+[2015.11.11-00.00.10:008][539]Cmd: TRANSACTION UNDO
+[2015.11.11-00.00.10:008][539]LogEditorTransaction: Undo Edit Z
+[2015.11.11-00.00.10:022][539]LogActorComponent: ~FComponentReregisterContext: (/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.CylinderBrush5.BrushComponent0) Component already registered.
+[2015.11.11-00.00.21:077][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.00.21:077][752]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:00:21 PM)
+[2015.11.11-00.00.21:077][752]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.00.21:093][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015790s)
+[2015.11.11-00.00.21:093][752]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.00.21:094][752]LogPlayLevel: PIE: World Init took: (0.000469s)
+[2015.11.11-00.00.21:094][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.016418s)
+[2015.11.11-00.00.21:094][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.00.21:114][752]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.00.21:130][752]LogInit: FAudioDevice initialized.
+[2015.11.11-00.00.21:161][752]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.00.21:165][752]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.00.21
+[2015.11.11-00.00.21:165][752]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.00.21:165][752]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.00.21:166][752]LogWorld: Bringing up level for play took: 0.003497
+[2015.11.11-00.00.21:168][752]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.433
+[2015.11.11-00.00.29:370][706]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000792DEE80
+[2015.11.11-00.00.55:028][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.00.55:028][588]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:00:55 PM)
+[2015.11.11-00.00.55:028][588]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.00.55:044][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016486s)
+[2015.11.11-00.00.55:045][588]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.00.55:045][588]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2015.11.11-00.00.55:045][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.017128s)
+[2015.11.11-00.00.55:062][588]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.00.55:093][588]LogInit: FAudioDevice initialized.
+[2015.11.11-00.00.55:144][588]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.00.55:156][588]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.00.55
+[2015.11.11-00.00.55:156][588]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.00.55:156][588]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.00.55:159][588]LogWorld: Bringing up level for play took: 0.011871
+[2015.11.11-00.00.55:165][588]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.43
+[2015.11.11-00.01.10:533][401]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018E7F740
+[2015.11.11-00.01.18:849][332]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.01.18:849][332]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:01:18 PM)
+[2015.11.11-00.01.18:849][332]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.01.18:864][332]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015229s)
+[2015.11.11-00.01.18:865][332]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.01.18:865][332]LogPlayLevel: PIE: World Init took: (0.000473s)
+[2015.11.11-00.01.18:865][332]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.015854s)
+[2015.11.11-00.01.18:880][332]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.01.18:895][332]LogInit: FAudioDevice initialized.
+[2015.11.11-00.01.18:927][332]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.01.18:930][332]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.01.18
+[2015.11.11-00.01.18:930][332]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.01.18:930][332]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.01.18:931][332]LogWorld: Bringing up level for play took: 0.003568
+[2015.11.11-00.01.18:933][332]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.198
+[2015.11.11-00.01.26:271][180]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029A714E0
+[2015.11.11-00.01.32:454][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.01.32:454][898]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:01:32 PM)
+[2015.11.11-00.01.32:454][898]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.01.32:471][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016884s)
+[2015.11.11-00.01.32:471][898]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.01.32:471][898]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2015.11.11-00.01.32:471][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.017545s)
+[2015.11.11-00.01.32:489][898]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.01.32:505][898]LogInit: FAudioDevice initialized.
+[2015.11.11-00.01.32:535][898]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.01.32:538][898]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.01.32
+[2015.11.11-00.01.32:538][898]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.01.32:538][898]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.01.32:539][898]LogWorld: Bringing up level for play took: 0.003620
+[2015.11.11-00.01.32:542][898]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.193
+[2015.11.11-00.01.59:424][  7]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007A186840
+[2015.11.11-00.02.14:374][684]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.04.02:362][750]LogSavePackage: Save=132.119949ms
+[2015.11.11-00.04.02:362][750]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy2_Auto1595544A141BB445ACDBA9BBA8D3FCC91.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/Whitebox_cindy2_Auto1.umap'
+[2015.11.11-00.04.02:363][750]LogSavePackage: Total save time: 136.192940ms
+[2015.11.11-00.04.02:363][750]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/Whitebox_cindy2_Auto1.umap
+[2015.11.11-00.04.02:364][750]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CandleProject/Maps/Whitebox_cindy2' took 0.158
+[2015.11.11-00.04.02:364][750]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2015.11.11-00.05.49:972][377]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.07.06:343][940]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.07.06:343][940]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:07:06 PM)
+[2015.11.11-00.07.06:343][940]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.07.06:409][940]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065807s)
+[2015.11.11-00.07.06:410][940]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.07.06:410][940]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2015.11.11-00.07.06:410][940]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.067171s)
+[2015.11.11-00.07.06:463][940]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.07.06:493][940]LogInit: FAudioDevice initialized.
+[2015.11.11-00.07.06:528][940]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.07.06:535][940]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.07.06
+[2015.11.11-00.07.06:535][940]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.06:535][940]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.06:536][940]LogWorld: Bringing up level for play took: 0.005442
+[2015.11.11-00.07.06:539][940]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.198
+[2015.11.11-00.07.10:972][460]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002495A160
+[2015.11.11-00.07.26:659][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.07.26:659][177]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:07:26 PM)
+[2015.11.11-00.07.26:659][177]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.07.26:678][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019114s)
+[2015.11.11-00.07.26:679][177]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.07.26:679][177]LogPlayLevel: PIE: World Init took: (0.000459s)
+[2015.11.11-00.07.26:679][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.019718s)
+[2015.11.11-00.07.26:696][177]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.07.26:712][177]LogInit: FAudioDevice initialized.
+[2015.11.11-00.07.26:738][177]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.07.26:742][177]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.07.26
+[2015.11.11-00.07.26:742][177]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.26:742][177]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.26:743][177]LogWorld: Bringing up level for play took: 0.004272
+[2015.11.11-00.07.26:746][177]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.008
+[2015.11.11-00.07.28:862][423]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AEEBBA0
+[2015.11.11-00.07.30:791][630]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2015.11.11-00.07.32:293][789]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.11.11-00.07.33:327][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.07.33:328][909]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:07:33 PM)
+[2015.11.11-00.07.33:328][909]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.07.33:348][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020036s)
+[2015.11.11-00.07.33:348][909]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.07.33:348][909]LogPlayLevel: PIE: World Init took: (0.000480s)
+[2015.11.11-00.07.33:348][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.020666s)
+[2015.11.11-00.07.33:365][909]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.07.33:381][909]LogInit: FAudioDevice initialized.
+[2015.11.11-00.07.33:408][909]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.07.33:412][909]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.07.33
+[2015.11.11-00.07.33:412][909]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.33:413][909]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.33:414][909]LogWorld: Bringing up level for play took: 0.004393
+[2015.11.11-00.07.33:416][909]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.678
+[2015.11.11-00.07.49:202][733]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000792DD800
+[2015.11.11-00.07.52:288][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.07.52:288][ 72]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:07:52 PM)
+[2015.11.11-00.07.52:288][ 72]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.07.52:313][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024738s)
+[2015.11.11-00.07.52:313][ 72]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.07.52:313][ 72]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2015.11.11-00.07.52:314][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.025511s)
+[2015.11.11-00.07.52:337][ 72]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.07.52:354][ 72]LogInit: FAudioDevice initialized.
+[2015.11.11-00.07.52:383][ 72]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.07.52:387][ 72]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.07.52
+[2015.11.11-00.07.52:387][ 72]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.52:388][ 72]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.07.52:389][ 72]LogWorld: Bringing up level for play took: 0.004439
+[2015.11.11-00.07.52:391][ 72]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.346
+[2015.11.11-00.08.08:892][987]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007EEDBC40
+[2015.11.11-00.08.28:243][143]Cmd: EDCALLBACK SURFPROPS
+[2015.11.11-00.08.29:617][290]Cmd: EDCALLBACK SURFPROPS
+[2015.11.11-00.08.30:661][408]Cmd: EDCALLBACK SURFPROPS
+[2015.11.11-00.08.51:868][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.08.51:868][593]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:08:51 PM)
+[2015.11.11-00.08.51:868][593]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.08.51:889][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020723s)
+[2015.11.11-00.08.51:890][593]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.08.51:890][593]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2015.11.11-00.08.51:890][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.021459s)
+[2015.11.11-00.08.51:910][593]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.08.51:927][593]LogInit: FAudioDevice initialized.
+[2015.11.11-00.08.51:960][593]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.08.51:964][593]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.08.51
+[2015.11.11-00.08.51:964][593]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.08.51:965][593]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.08.51:966][593]LogWorld: Bringing up level for play took: 0.004465
+[2015.11.11-00.08.51:968][593]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.77
+[2015.11.11-00.09.36:656][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003B4371A0
+[2015.11.11-00.09.40:044][233]LogSavePackage: Save=138.348923ms
+[2015.11.11-00.09.40:044][233]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy26743D169405F904A0990EBB6B9F0399E.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.11-00.09.40:045][233]LogSavePackage: Total save time: 143.106591ms
+[2015.11.11-00.09.40:045][233]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.11-00.09.42:036][435]MapCheck: New page: Map Check
+[2015.11.11-00.09.42:053][435]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-00.09.42:053][435]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-00.09.42:327][435]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-00.09.42:327][435]LogStats:          STAT_HLOD_BuildClusters - 17.919 ms
+[2015.11.11-00.09.42:327][435]LightingResults: New page: Lighting Build - Nov 10, 2015, 12:09:42 PM
+[2015.11.11-00.09.46:902][435]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.11-00.09.46:903][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-00.09.46:903][435]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-00.09.46:903][435]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-00.09.46:903][435]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-00.09.46:903][435]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-00.09.47:064][435]LogEditorBuildUtils: Build time 0:00:05
+[2015.11.11-00.09.47:076][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.11.11-00.09.47:084][435]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2015.11.11-00.09.54:266][838]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.09.54:266][838]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:09:54 PM)
+[2015.11.11-00.09.54:266][838]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.09.54:299][838]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032444s)
+[2015.11.11-00.09.54:299][838]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.09.54:299][838]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2015.11.11-00.09.54:300][838]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.033395s)
+[2015.11.11-00.09.54:329][838]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.09.54:377][838]LogInit: FAudioDevice initialized.
+[2015.11.11-00.09.54:413][838]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.09.54:420][838]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.09.54
+[2015.11.11-00.09.54:421][838]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.09.54:421][838]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.09.54:423][838]LogWorld: Bringing up level for play took: 0.008360
+[2015.11.11-00.09.54:427][838]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.312
+[2015.11.11-00.09.54:823][876]Job is a success!
+[2015.11.11-00.10.06:185][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002BC96340
+[2015.11.11-00.10.41:756][883]MapCheck: New page: Map Check
+[2015.11.11-00.10.41:791][883]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.11.11-00.10.41:791][883]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:10:41 PM
+[2015.11.11-00.10.41:847][883]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.772ms to complete.
+[2015.11.11-00.10.41:868][883]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.11-00.10.42:061][900]MapCheck: New page: Map Check
+[2015.11.11-00.10.42:107][900]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.11.11-00.10.42:107][900]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:10:42 PM
+[2015.11.11-00.10.42:171][900]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.124ms to complete.
+[2015.11.11-00.10.42:191][900]LogEditorBuildUtils: Build time 0:00:00
+[2015.11.11-00.10.48:062][432]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.11-00.10.48:195][432]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.11-00.10.48:308][432]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.11-00.10.48:646][432]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2015.11.11-00.10.48:733][432]Lightmass on CINDY-PC: 59.4 sec total, 89 ms importing, 3 ms setup, 718 ms photons, 58.6 sec processing, 0 ms extra exporting [534/534 mappings]. Threads: 6:50 min total, 26.0 sec processing.
+[2015.11.11-00.10.48:768][432]LogStaticLightingSystem: Illumination: 13.4 sec (664 ms encoding lightmaps)
+[2015.11.11-00.10.48:768][432]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.10.48:768][432]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.0 MB streaming, 0.7 MB non-streaming), 1 textures
+[2015.11.11-00.10.48:917][433]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-00.10.48:917][433]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:10:48 PM
+[2015.11.11-00.10.48:969][433]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.711ms to complete.
+[2015.11.11-00.10.53:869][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.10.53:869][986]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:10:53 PM)
+[2015.11.11-00.10.53:869][986]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.10.53:889][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019612s)
+[2015.11.11-00.10.53:889][986]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.10.53:890][986]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2015.11.11-00.10.53:890][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.020230s)
+[2015.11.11-00.10.53:903][986]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.10.53:919][986]LogInit: FAudioDevice initialized.
+[2015.11.11-00.10.53:946][986]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.10.53:950][986]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.10.53
+[2015.11.11-00.10.53:950][986]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.10.53:950][986]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.10.53:951][986]LogWorld: Bringing up level for play took: 0.004428
+[2015.11.11-00.10.53:954][986]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.785
+[2015.11.11-00.11.08:264][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004847DB20
+[2015.11.11-00.11.41:084][298]MapCheck: New page: Map Check
+[2015.11.11-00.11.41:101][298]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-00.11.41:101][298]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-00.11.41:415][298]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-00.11.41:415][298]LogStats:          STAT_HLOD_BuildClusters - 50.540 ms
+[2015.11.11-00.11.41:416][298]LightingResults: New page: Lighting Build - Nov 10, 2015, 12:11:41 PM
+[2015.11.11-00.11.46:624][298]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.11-00.11.46:625][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-00.11.46:625][298]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-00.11.46:625][298]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-00.11.46:625][298]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-00.11.46:625][298]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-00.11.46:708][298]LogEditorBuildUtils: Build time 0:00:05
+[2015.11.11-00.11.52:230][653]Job is a success!
+[2015.11.11-00.11.52:551][654]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.11-00.11.52:684][654]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.11-00.11.52:758][654]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.11-00.11.53:005][654]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2015.11.11-00.11.53:041][654]Lightmass on CINDY-PC: 5.69 sec total, 84 ms importing, 3 ms setup, 676 ms photons, 4.90 sec processing, 0 ms extra exporting [534/534 mappings]. Threads: 34.2 sec total, 23.2 sec processing.
+[2015.11.11-00.11.53:063][654]LogStaticLightingSystem: Illumination: 11.6 sec (535 ms encoding lightmaps)
+[2015.11.11-00.11.53:063][654]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.11.53:063][654]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.11.53:632][655]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-00.11.53:632][655]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:11:53 PM
+[2015.11.11-00.11.53:691][655]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.319ms to complete.
+[2015.11.11-00.13.04:895][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.13.04:895][379]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:13:04 PM)
+[2015.11.11-00.13.04:895][379]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.13.04:914][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018775s)
+[2015.11.11-00.13.04:914][379]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.13.04:914][379]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2015.11.11-00.13.04:914][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.019408s)
+[2015.11.11-00.13.04:914][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.13.04:929][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.13.04:946][379]LogInit: FAudioDevice initialized.
+[2015.11.11-00.13.04:975][379]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.13.04:979][379]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.13.04
+[2015.11.11-00.13.04:979][379]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.13.04:979][379]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.13.04:980][379]LogWorld: Bringing up level for play took: 0.004098
+[2015.11.11-00.13.04:982][379]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.242
+[2015.11.11-00.13.16:236][699]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000047C41D00
+[2015.11.11-00.13.20:368][133]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.11.11-00.13.49:066][ 48]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.15.10:930][916]MapCheck: New page: Map Check
+[2015.11.11-00.15.10:948][916]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-00.15.10:951][916]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-00.15.11:237][916]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-00.15.11:237][916]LogStats:          STAT_HLOD_BuildClusters - 21.038 ms
+[2015.11.11-00.15.11:237][916]LightingResults: New page: Lighting Build - Nov 10, 2015, 12:15:11 PM
+[2015.11.11-00.15.16:357][916]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.11-00.15.16:358][916]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-00.15.16:358][916]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-00.15.16:358][916]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-00.15.16:358][916]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-00.15.16:358][916]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-00.15.16:543][916]LogEditorBuildUtils: Build time 0:00:05
+[2015.11.11-00.15.22:010][286]Job is a success!
+[2015.11.11-00.15.22:263][287]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.11-00.15.22:386][287]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.11-00.15.22:469][287]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.11-00.15.22:711][287]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.11.11-00.15.22:766][287]Lightmass on CINDY-PC: 5.61 sec total, 77 ms importing, 2 ms setup, 568 ms photons, 4.94 sec processing, 0 ms extra exporting [555/555 mappings]. Threads: 34.4 sec total, 23.8 sec processing.
+[2015.11.11-00.15.22:788][287]LogStaticLightingSystem: Illumination: 11.5 sec (547 ms encoding lightmaps)
+[2015.11.11-00.15.22:788][287]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.15.22:788][287]LogStaticLightingSystem: Shadowmap texture memory: 4.0 MB (0.0 MB streaming, 4.0 MB non-streaming), 3 textures
+[2015.11.11-00.15.23:377][288]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-00.15.23:378][288]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:15:23 PM
+[2015.11.11-00.15.23:461][288]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.409ms to complete.
+[2015.11.11-00.15.28:227][832]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2015.11.11-00.15.49:141][ 60]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.16.24:708][504]Cmd: DELETE
+[2015.11.11-00.16.24:708][504]Cmd: ACTOR DELETE
+[2015.11.11-00.16.24:709][504]LogEditorActor: Deleted Actor: Brush
+[2015.11.11-00.16.24:770][504]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2015.11.11-00.17.47:961][954]Cmd: DELETE
+[2015.11.11-00.17.47:961][954]Cmd: ACTOR DELETE
+[2015.11.11-00.17.47:962][954]LogEditorActor: Deleted Actor: Brush
+[2015.11.11-00.17.48:027][954]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2015.11.11-00.18.03:290][552]MapCheck: New page: Map Check
+[2015.11.11-00.18.03:312][552]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-00.18.03:315][552]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-00.18.03:617][552]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-00.18.03:617][552]LogStats:          STAT_HLOD_BuildClusters - 17.801 ms
+[2015.11.11-00.18.03:617][552]LightingResults: New page: Lighting Build - Nov 10, 2015, 12:18:03 PM
+[2015.11.11-00.18.08:735][552]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.11-00.18.08:737][552]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-00.18.08:737][552]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-00.18.08:737][552]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-00.18.08:737][552]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-00.18.08:737][552]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-00.18.08:890][552]LogEditorBuildUtils: Build time 0:00:05
+[2015.11.11-00.18.14:514][986]Job is a success!
+[2015.11.11-00.18.14:755][987]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.11-00.18.14:871][987]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.11-00.18.14:952][987]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.11-00.18.15:330][987]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.11.11-00.18.15:383][987]Lightmass on CINDY-PC: 5.79 sec total, 75 ms importing, 2 ms setup, 558 ms photons, 5.13 sec processing, 0 ms extra exporting [581/581 mappings]. Threads: 35.8 sec total, 24.4 sec processing.
+[2015.11.11-00.18.15:411][987]LogStaticLightingSystem: Illumination: 11.7 sec (675 ms encoding lightmaps)
+[2015.11.11-00.18.15:411][987]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.18.15:411][987]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (0.0 MB streaming, 6.7 MB non-streaming), 4 textures
+[2015.11.11-00.18.15:745][988]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-00.18.15:745][988]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:18:15 PM
+[2015.11.11-00.18.15:804][988]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.762ms to complete.
+[2015.11.11-00.18.48:468][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.18.48:469][825]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:18:48 PM)
+[2015.11.11-00.18.48:469][825]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.18.48:492][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022982s)
+[2015.11.11-00.18.48:492][825]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.18.48:492][825]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2015.11.11-00.18.48:492][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.023614s)
+[2015.11.11-00.18.48:506][825]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.18.48:522][825]LogInit: FAudioDevice initialized.
+[2015.11.11-00.18.48:548][825]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.18.48:552][825]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.18.48
+[2015.11.11-00.18.48:552][825]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.18.48:553][825]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.18.48:554][825]LogWorld: Bringing up level for play took: 0.004687
+[2015.11.11-00.18.48:556][825]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.187
+[2015.11.11-00.19.04:824][726]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007EF13740
+[2015.11.11-00.19.30:144][633]Cmd: DELETE
+[2015.11.11-00.19.30:144][633]Cmd: ACTOR DELETE
+[2015.11.11-00.19.30:145][633]LogEditorActor: Deleted Actor: TriggerBox
+[2015.11.11-00.19.30:145][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.19.30:145][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.11-00.19.30:153][633]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2015.11.11-00.19.41:033][840]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.19.42:777][ 41]Cmd: DELETE
+[2015.11.11-00.19.42:777][ 41]Cmd: ACTOR DELETE
+[2015.11.11-00.19.42:778][ 41]LogEditorActor: Deleted Actor: Brush
+[2015.11.11-00.19.42:778][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.11-00.19.42:778][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.19.42:828][ 41]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2015.11.11-00.19.44:914][257]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2015.11.11-00.19.55:704][484]Cmd: DELETE
+[2015.11.11-00.19.55:704][484]Cmd: ACTOR DELETE
+[2015.11.11-00.19.55:705][484]LogEditorActor: Deleted Actor: Brush
+[2015.11.11-00.19.55:705][484]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.19.55:762][484]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2015.11.11-00.19.59:433][896]LogActorFactory: Actor Factory created Cube
+[2015.11.11-00.20.00:455][990]LogActorFactory: Actor Factory created Cube
+[2015.11.11-00.20.14:006][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2015.11.11-00.20.14:233][177]Cmd: DELETE
+[2015.11.11-00.20.14:233][177]Cmd: ACTOR DELETE
+[2015.11.11-00.20.14:234][177]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.11.11-00.20.14:243][177]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2015.11.11-00.20.44:334][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.20.44:334][531]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:20:44 PM)
+[2015.11.11-00.20.44:334][531]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.20.44:362][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027503s)
+[2015.11.11-00.20.44:362][531]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.20.44:362][531]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2015.11.11-00.20.44:363][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.028121s)
+[2015.11.11-00.20.44:378][531]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.20.44:395][531]LogInit: FAudioDevice initialized.
+[2015.11.11-00.20.44:426][531]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.20.44:430][531]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.20.44
+[2015.11.11-00.20.44:430][531]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.20.44:430][531]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.20.44:432][531]LogWorld: Bringing up level for play took: 0.005079
+[2015.11.11-00.20.44:434][531]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.309
+[2015.11.11-00.20.48:639][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000079FE8220
+[2015.11.11-00.20.49:545][120]MapCheck: New page: Map Check
+[2015.11.11-00.20.49:559][120]Cmd: MAP REBUILD ALLVISIBLE
+[2015.11.11-00.20.49:560][120]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.11.11-00.20.49:873][120]MapCheck:Warning: Warning WorldSettings Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2015.11.11-00.20.49:873][120]LogStats:          STAT_HLOD_BuildClusters - 13.870 ms
+[2015.11.11-00.20.49:873][120]LightingResults: New page: Lighting Build - Nov 10, 2015, 12:20:49 PM
+[2015.11.11-00.20.54:994][120]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2015.11.11-00.20.54:995][120]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.11.11-00.20.54:995][120]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.11.11-00.20.54:995][120]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.11.11-00.20.54:995][120]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.11.11-00.20.54:995][120]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.11.11-00.20.55:154][120]LogEditorBuildUtils: Build time 0:00:05
+[2015.11.11-00.21.00:909][550]Job is a success!
+[2015.11.11-00.21.01:161][552]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
+[2015.11.11-00.21.01:288][552]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.11.11-00.21.01:367][552]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.11.11-00.21.01:609][552]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.11.11-00.21.01:648][552]Lightmass on CINDY-PC: 5.84 sec total, 74 ms importing, 3 ms setup, 568 ms photons, 5.18 sec processing, 0 ms extra exporting [581/581 mappings]. Threads: 36.1 sec total, 25.4 sec processing.
+[2015.11.11-00.21.01:686][552]LogStaticLightingSystem: Illumination: 11.7 sec (543 ms encoding lightmaps)
+[2015.11.11-00.21.01:686][552]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.0 MB streaming, 1.3 MB non-streaming), 2 textures
+[2015.11.11-00.21.01:686][552]LogStaticLightingSystem: Shadowmap texture memory: 9.3 MB (0.0 MB streaming, 9.3 MB non-streaming), 5 textures
+[2015.11.11-00.21.02:016][553]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.11.11-00.21.02:016][553]MapCheck: New page: Whitebox_cindy2 - Nov 10, 2015, 12:21:02 PM
+[2015.11.11-00.21.02:091][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.654ms to complete.
+[2015.11.11-00.21.14:559][968]LogSavePackage: Save=74.504616ms
+[2015.11.11-00.21.14:559][968]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy2_Auto224D2E0484B74C60663E11FA6EBBF323E.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/Whitebox_cindy2_Auto2.umap'
+[2015.11.11-00.21.14:560][968]LogSavePackage: Total save time: 79.067618ms
+[2015.11.11-00.21.14:560][968]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/Whitebox_cindy2_Auto2.umap
+[2015.11.11-00.21.14:561][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CandleProject/Maps/Whitebox_cindy2' took 0.092
+[2015.11.11-00.21.14:561][968]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.092
+[2015.11.11-00.21.52:648][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.21.52:648][361]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:21:52 PM)
+[2015.11.11-00.21.52:648][361]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.21.52:673][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025516s)
+[2015.11.11-00.21.52:674][361]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.21.52:674][361]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2015.11.11-00.21.52:674][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.026137s)
+[2015.11.11-00.21.52:688][361]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.21.52:704][361]LogInit: FAudioDevice initialized.
+[2015.11.11-00.21.52:735][361]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.21.52:739][361]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.21.52
+[2015.11.11-00.21.52:739][361]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.21.52:739][361]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.21.52:740][361]LogWorld: Bringing up level for play took: 0.004864
+[2015.11.11-00.21.52:742][361]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.001
+[2015.11.11-00.22.04:045][690]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009D042D40
+[2015.11.11-00.22.06:696][967]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2015.11.11-00.23.08:720][396]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.11-00.23.09:105][396]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.11.11-00.23.23:370][583]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.11.11-00.23.38:448][945]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.11.11-00.24.33:162][854]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.11.11-00.24.55:192][ 83]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.01:131][693]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.04:649][ 61]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.35:815][315]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.38:468][592]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.45:626][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.25.45:626][379]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.11-00.25.45:629][379]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.45:629][379]LogPlayLevel: [PlayLevel] Compiling Whitebox_cindy2 before play...
+[2015.11.11-00.25.45:663][379]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.45:663][379]LogPlayLevel: PlayLevel: Blueprint regeneration took 37 ms (1 blueprints)
+[2015.11.11-00.25.45:663][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.11-00.25.45:663][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.11-00.25.45:685][379]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:25:45 PM)
+[2015.11.11-00.25.45:685][379]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.25.45:715][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030109s)
+[2015.11.11-00.25.45:716][379]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.25.45:716][379]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2015.11.11-00.25.45:716][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.030793s)
+[2015.11.11-00.25.45:740][379]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.25.45:756][379]LogInit: FAudioDevice initialized.
+[2015.11.11-00.25.45:783][379]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.25.45:788][379]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.25.45
+[2015.11.11-00.25.45:788][379]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.25.45:788][379]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.25.45:789][379]LogWorld: Bringing up level for play took: 0.005115
+[2015.11.11-00.25.45:791][379]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 1.047
+[2015.11.11-00.25.45:791][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.25.45:823][379]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.47:229][547]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.25.47:237][547]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.47:270][547]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.25.47:323][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A0058CC0
+[2015.11.11-00.25.47:324][547]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.25.56:444][413]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.11.11-00.26.09:337][758]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.26.09:337][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.26.09:338][758]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:26:09 PM)
+[2015.11.11-00.26.09:338][758]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.26.09:365][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027827s)
+[2015.11.11-00.26.09:366][758]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.26.09:366][758]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2015.11.11-00.26.09:366][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.028486s)
+[2015.11.11-00.26.09:390][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.26.09:406][758]LogInit: FAudioDevice initialized.
+[2015.11.11-00.26.09:436][758]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.26.09:441][758]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.26.09
+[2015.11.11-00.26.09:441][758]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.26.09:441][758]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.26.09:442][758]LogWorld: Bringing up level for play took: 0.005000
+[2015.11.11-00.26.09:444][758]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 0.699
+[2015.11.11-00.26.09:444][758]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.26.20:700][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.26.20:707][  9]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.26.20:739][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.26.20:791][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000520F3600
+[2015.11.11-00.26.20:791][  9]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.26.22:036][149]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.11.11-00.26.23:505][314]BlueprintLog: New page: Compile Whitebox_cindy2
+[2015.11.11-00.26.23:556][314]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.26.23:556][314]BlueprintEditorCompileResults: Info [3678.18] Compile of Whitebox_cindy2 successful! [in 50 ms]
+[2015.11.11-00.26.23:567][314]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.26.46:668][932]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.11.11-00.26.54:182][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.26.54:182][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.26.54:182][796]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:26:54 PM)
+[2015.11.11-00.26.54:182][796]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.26.54:208][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025926s)
+[2015.11.11-00.26.54:208][796]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.26.54:208][796]LogPlayLevel: PIE: World Init took: (0.000472s)
+[2015.11.11-00.26.54:209][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.026551s)
+[2015.11.11-00.26.54:225][796]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039F2E160
+[2015.11.11-00.26.54:233][796]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.26.54:248][796]LogInit: FAudioDevice initialized.
+[2015.11.11-00.26.54:277][796]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.26.54:282][796]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.26.54
+[2015.11.11-00.26.54:282][796]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.26.54:282][796]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.26.54:283][796]LogWorld: Bringing up level for play took: 0.005092
+[2015.11.11-00.26.54:285][796]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.46
+[2015.11.11-00.26.54:285][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.27.16:978][431]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.27.17:017][431]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.27.17:065][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008119AAC0
+[2015.11.11-00.27.18:051][549]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2015.11.11-00.28.00:657][909]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'Whitebox_cindy2', cached variable property's owner is '/Script/Engine.Light'
+[2015.11.11-00.29.31:654][149]BlueprintLog: New page: Compile Whitebox_cindy2
+[2015.11.11-00.29.31:710][149]BlueprintEditorCompileResults: Info [3866.33] Compile of Whitebox_cindy2 successful! [in 55 ms]
+[2015.11.11-00.29.33:632][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.29.33:632][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.29.33:632][297]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:29:33 PM)
+[2015.11.11-00.29.33:632][297]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.29.33:661][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029417s)
+[2015.11.11-00.29.33:662][297]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.29.33:662][297]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2015.11.11-00.29.33:662][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.030107s)
+[2015.11.11-00.29.33:749][297]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.29.33:793][297]LogInit: FAudioDevice initialized.
+[2015.11.11-00.29.33:836][297]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.29.33:856][297]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.29.33
+[2015.11.11-00.29.33:856][297]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.29.33:857][297]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.29.33:861][297]LogWorld: Bringing up level for play took: 0.021427
+[2015.11.11-00.29.33:868][297]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 1.122
+[2015.11.11-00.29.33:868][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.29.42:443][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.29.42:483][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.29.42:535][275]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B84DA3E0
+[2015.11.11-00.29.53:937][288]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.29.53:937][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.29.53:937][288]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:29:53 PM)
+[2015.11.11-00.29.53:938][288]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.29.54:017][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.079681s)
+[2015.11.11-00.29.54:018][288]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.29.54:018][288]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2015.11.11-00.29.54:019][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.080923s)
+[2015.11.11-00.29.54:059][288]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.29.54:085][288]LogInit: FAudioDevice initialized.
+[2015.11.11-00.29.54:117][288]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.29.54:123][288]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.29.54
+[2015.11.11-00.29.54:123][288]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.29.54:123][288]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.29.54:124][288]LogWorld: Bringing up level for play took: 0.006870
+[2015.11.11-00.29.54:127][288]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.62
+[2015.11.11-00.29.54:127][288]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.05:526][564]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.05:566][564]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.05:624][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009A1E7F60
+[2015.11.11-00.30.07:104][719]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2015.11.11-00.30.14:969][632]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2015.11.11-00.30.19:545][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000793D28E0
+[2015.11.11-00.30.19:732][155]LogSavePackage: Save=186.691742ms
+[2015.11.11-00.30.19:732][155]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy2780E2C4D40F3969A67A351B4D6689688.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.11-00.30.19:733][155]LogSavePackage: Total save time: 192.202996ms
+[2015.11.11-00.30.19:734][155]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.11-00.30.20:256][213]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.20:256][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.11-00.30.20:256][213]PIE: New page: PIE session: Whitebox_cindy2 (Nov 10, 2015, 12:30:20 PM)
+[2015.11.11-00.30.20:256][213]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2
+[2015.11.11-00.30.20:284][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028005s)
+[2015.11.11-00.30.20:285][213]LogAIModule: Creating AISystem for world Whitebox_cindy2
+[2015.11.11-00.30.20:285][213]LogPlayLevel: PIE: World Init took: (0.000484s)
+[2015.11.11-00.30.20:285][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2 to /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 (0.028645s)
+[2015.11.11-00.30.20:310][213]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.11-00.30.20:326][213]LogInit: FAudioDevice initialized.
+[2015.11.11-00.30.20:355][213]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.11-00.30.20:360][213]LogWorld: Bringing World /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2 up for play (max tick rate 0) at 2015.11.10-18.30.20
+[2015.11.11-00.30.20:360][213]LogActor:Warning: GameSession /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameSession_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.30.20:360][213]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.GameNetworkManager_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.11-00.30.20:361][213]LogWorld: Bringing up level for play took: 0.005045
+[2015.11.11-00.30.20:363][213]PIE: Info Play in editor start time for /Game/CandleProject/Maps/UEDPIE_0_Whitebox_cindy2 -0.383
+[2015.11.11-00.30.20:363][213]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.38:866][353]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.38:921][353]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2' with GeneratedClass '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2_C' with ClassGeneratedBy '/Game/CandleProject/Maps/Whitebox_cindy2.Whitebox_cindy2:PersistentLevel.Whitebox_cindy2'
+[2015.11.11-00.30.38:954][353]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000079E2B560
+[2015.11.11-00.30.44:208][882]LogSavePackage: Save=200.568497ms
+[2015.11.11-00.30.44:208][882]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Whitebox_cindy217FFEC674E8C75A7A76C0D8EC4BC8A0F.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap'
+[2015.11.11-00.30.44:210][882]LogSavePackage: Total save time: 203.394301ms
+[2015.11.11-00.30.44:210][882]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/Whitebox_cindy2.umap
+[2015.11.11-00.30.46:862][162]Cmd: QUIT_EDITOR
+[2015.11.11-00.30.47:064][162]LogExit: Preparing to exit.
+[2015.11.11-00.30.47:715][162]LogExit: Editor shut down
+[2015.11.11-00.30.47:715][162]LogExit: Transaction tracking system shut down
+[2015.11.11-00.30.47:716][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000520F3240
+[2015.11.11-00.30.47:716][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000520F3B00
+[2015.11.11-00.30.47:716][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003AD7CCC0
+[2015.11.11-00.30.47:717][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000384C14E0
+[2015.11.11-00.30.47:717][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031277880
+[2015.11.11-00.30.47:717][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F892B60
+[2015.11.11-00.30.47:717][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031DBA840
+[2015.11.11-00.30.47:718][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000311576A0
+[2015.11.11-00.30.47:854][162]LogExit: Object subsystem successfully closed.
+[2015.11.11-00.30.47:860][162]LogD3D11RHI: Shutdown
+[2015.11.11-00.30.47:860][162]LogD3D11RHI: CleanupD3DDevice
+[2015.11.11-00.30.47:901][162]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.11-00.30.47:915][162]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.11-00.30.47:915][162]LogModuleManager: Shutting down and abandoning module WidgetCarousel (198)
+[2015.11.11-00.30.47:915][162]LogModuleManager: Shutting down and abandoning module AddContentDialog (197)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module CrashTracker (194)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module SuperSearch (193)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module WorldBrowser (192)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module SceneOutliner (191)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.11-00.30.47:916][162]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.11-00.30.47:917][162]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.11-00.30.48:383][162]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.11-00.30.48:385][162]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.11-00.30.48:566][162]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.11-00.30.48:585][162]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.11-00.30.48:586][162]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.11-00.30.48:589][162]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.11-00.30.48:590][162]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.11-00.30.48:753][162]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.11-00.30.48:755][162]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.11-00.30.48:755][162]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.11-00.30.48:855][162]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.11-00.30.48:855][162]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.11-00.30.48:855][162]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.11-00.30.48:863][162]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.11-00.30.48:863][162]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.11-00.30.48:864][162]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.11-00.30.48:865][162]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.11-00.30.48:869][162]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.11-00.30.48:869][162]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.11-00.30.48:870][162]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.11-00.30.48:914][162]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.11-00.30.48:933][162]LogDerivedDataCache: Shutdown
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.11-00.30.48:933][162]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.11-00.30.49:933][162]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.11-00.30.49:935][162]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.11-00.30.49:935][162]LogExit: Exiting.
+[2015.11.11-00.30.49:950][162]Log file closed, 11/10/15 18:30:49
