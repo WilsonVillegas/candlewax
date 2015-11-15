@@ -1,0 +1,620 @@
+﻿[2015.11.15-15.26.33:741][  0]Log file open, 11/15/15 09:26:33
+[2015.11.15-15.26.33:741][  0]LogInit:Display: Running engine for game: CandleProject
+[2015.11.15-15.26.33:741][  0]LogInit:Display: RandInit(735682990) SRandInit(735682990).
+[2015.11.15-15.26.33:741][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.15-15.26.33:741][  0]LogStats: Stats thread started at 0.064394
+[2015.11.15-15.26.33:741][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.15-15.26.33:741][  0]LogInit: API Version: 2672455
+[2015.11.15-15.26.33:741][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.15-15.26.33:741][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.15-15.26.33:741][  0]LogInit: Build Configuration: Development
+[2015.11.15-15.26.33:741][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.15-15.26.33:741][  0]LogInit: Command line:  
+[2015.11.15-15.26.33:741][  0]LogInit: Base directory: D:/Programs/Unreal Engine 4/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.15-15.26.33:741][  0]LogInit: Rocket: 1
+[2015.11.15-15.26.33:747][  0]LogInit: Using libcurl 7.41.0
+[2015.11.15-15.26.33:747][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.15-15.26.33:747][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.15-15.26.33:747][  0]LogInit:  - other features:
+[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.15-15.26.33:747][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.15-15.26.33:747][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.15-15.26.33:747][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.15-15.26.33:747][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.15-15.26.33:747][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.15-15.26.33:753][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.15-15.26.33:758][  0]LogInit: Object subsystem initialized
+[2015.11.15-15.26.33:759][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.15-15.26.33:759][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.15-15.26.33:768][  0]LogInit: Computer: CINDY-PC
+[2015.11.15-15.26.33:768][  0]LogInit: User: Cindy
+[2015.11.15-15.26.33:768][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.15-15.26.33:768][  0]LogInit: High frequency timer resolution =3.904033 MHz
+[2015.11.15-15.26.33:768][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.15-15.26.33:768][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.15-15.26.33:768][  0]LogMemory: Process Physical Memory: 54.32 MB used, 54.32 MB peak
+[2015.11.15-15.26.33:768][  0]LogMemory: Process Virtual Memory: 59.16 MB used, 59.16 MB peak
+[2015.11.15-15.26.33:768][  0]LogMemory: Physical Memory: 4119.67 MB used, 16326.84 MB total
+[2015.11.15-15.26.33:768][  0]LogMemory: Virtual Memory: 339.61 MB used, 8388608.00 MB total
+[2015.11.15-15.26.33:798][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7907MB of shared system memory, 2 output[s]
+[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.15-15.26.34:328][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.15-15.26.34:328][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.15-15.26.34:334][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.15-15.26.34:347][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/WorkingDirectory/5324/).
+[2015.11.15-15.26.34:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/tmp/CE9CA9054E1A94F69528848E23612EC8/'.
+[2015.11.15-15.26.34:347][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.15-15.26.35:180][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.15-15.26.35:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.15-15.26.35:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.15-15.26.35:192][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.15-15.26.35:196][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.15-15.26.35:198][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.15-15.26.35:201][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.15-15.26.35:203][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.15-15.26.35:206][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.15-15.26.35:208][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.15-15.26.35:211][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.15-15.26.35:213][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.15-15.26.35:214][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.15-15.26.35:228][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.15-15.26.35:230][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.15-15.26.35:233][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.15-15.26.35:235][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.15-15.26.35:235][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.15-15.26.35:299][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.15-15.26.35:430][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.15-15.26.35:441][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cindy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.15-15.26.35:560][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.15-15.26.35:561][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.15-15.26.35:580][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.15-15.26.35:580][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.15-15.26.35:827][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.15-15.26.36:384][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.15-15.26.36:507][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.11.15-15.26.36:632][  0]SourceControl: Info Source control is disabled
+[2015.11.15-15.26.36:653][  0]SourceControl: Info Source control is disabled
+[2015.11.15-15.26.36:663][  0]SourceControl: Info Source control is disabled
+[2015.11.15-15.26.36:673][  0]SourceControl: Info Source control is disabled
+[2015.11.15-15.26.36:787][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.26.36:847][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.15-15.26.36:847][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.15-15.26.36:890][  0]LogEngine: Initializing Engine...
+[2015.11.15-15.26.36:891][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.15-15.26.36:892][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.15-15.26.36:985][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.15-15.26.36:991][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.26.37:010][  0]LogInit: FAudioDevice initialized.
+[2015.11.15-15.26.37:026][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.15-15.26.37:029][  0]LogInit: Texture streaming: Enabled
+[2015.11.15-15.26.37:033][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9fcbc173422a7138b3bba1a9c3fd03f3|b24dd545970c43d78826f53370189a64|8c5db416-acae-4836-b409-4af6731ed691
+[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.15-15.26.37:068][  0]LogInit: Transaction tracking system initialized
+[2015.11.15-15.26.37:090][  0]BlueprintLog: New page: Editor Load
+[2015.11.15-15.26.37:152][  0]LocalizationService: Info Localization service is disabled
+[2015.11.15-15.26.37:207][  0]LogConsoleResponse:Display: 
+[2015.11.15-15.26.37:292][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.15-15.26.37:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/' took 0.01s
+[2015.11.15-15.26.37:336][  0]SourceControl: Info Source control is disabled
+[2015.11.15-15.26.37:337][  0]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.15-15.26.37:337][  0]LightingResults: New page: Lighting Build
+[2015.11.15-15.26.37:339][  0]MapCheck: New page: Map Check
+[2015.11.15-15.26.37:339][  0]LightingResults: New page: Lighting Build
+[2015.11.15-15.26.37:348][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022E1A160
+[2015.11.15-15.26.37:435][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.26.37:437][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.26.37:706][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.15-15.26.37:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.15-15.26.37:712][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.15-15.26.37:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.892ms to complete.
+[2015.11.15-15.26.37:760][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.424
+[2015.11.15-15.26.37:932][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.15-15.26.37:943][  0]LogCollectionManager: Loaded 0 collections in 0.002066 seconds
+[2015.11.15-15.26.37:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Collections/' took 0.01s
+[2015.11.15-15.26.37:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Developers/Cindy/Collections/' took 0.01s
+[2015.11.15-15.26.37:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Collections/' took 0.01s
+[2015.11.15-15.26.37:979][  0]LogContentBrowser: Native class hierarchy populated in 0.0053 seconds. Added 1869 classes and 338 folders.
+[2015.11.15-15.26.37:988][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.15-15.26.37:993][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.15-15.26.38:026][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.15-15.26.38:034][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.15-15.26.38:055][  0]LogLoad: Full Startup: 4.70 seconds (BP compile: 0.08 seconds)
+[2015.11.15-15.26.38:064][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.11.15-15.26.38:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.15-15.26.38:229][  0]LogRenderer: Reallocating scene render targets to support 1516x936 (Frame:2).
+[2015.11.15-15.26.38:508][  4]LogAssetRegistry: Asset discovery search completed in 2.0108 seconds
+[2015.11.15-15.26.38:508][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.15-15.26.38:508][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2015.11.15-15.30.08:678][661]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (EditorCube8)
+[2015.11.15-15.32.58:739][889]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-15.33.00:389][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000063F319E0
+[2015.11.15-15.33.13:180][296]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-15.33.14:102][296]LogSavePackage: Save=898.314636ms
+[2015.11.15-15.33.14:102][296]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_MockUpA4E99BEC4A8312632EED87BF245554F7.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/TestRooms/AI_MockUp.umap'
+[2015.11.15-15.33.14:104][296]LogSavePackage: Total save time: 899.701413ms
+[2015.11.15-15.33.14:104][296]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/TestRooms/AI_MockUp.umap
+[2015.11.15-15.33.14:133][296]LogFileHelpers: Saving map 'AI_MockUp' took 2.121
+[2015.11.15-15.33.23:240][286]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.11.15-15.33.23:581][323]Cmd: DELETE
+[2015.11.15-15.33.23:581][323]Cmd: ACTOR DELETE
+[2015.11.15-15.33.23:582][323]LogEditorActor: Deleted Actor: TextRenderActor
+[2015.11.15-15.33.23:591][323]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2015.11.15-15.33.25:575][524]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.11.15-15.33.26:186][563]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2015.11.15-15.33.28:516][798]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.11.15-15.33.31:988][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.11.15-15.34.04:503][477]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.15-15.34.16:729][345]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.11.15-15.34.25:046][103]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonWalk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.27:524][325]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.31:623][698]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.34:379][939]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_IdleRun_2D.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.34:379][939]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.35:193][  3]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.46:071][899]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.34.52:701][452]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.11.15-15.35.15:122][581]LogActor:Warning: RecastNavMesh /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.RecastNavMesh_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.35.27:072][765]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2015.11.15-15.35.49:249][819]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.35.49:593][819]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.11.15-15.36.02:928][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-15.36.02:928][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.11.15-15.36.36:564][933]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AI_Pawn', cached variable property's owner is '/Game/Mannequin/AI_Pawn.SKEL_AI_Pawn_C'
+[2015.11.15-15.36.38:040][ 78]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AI_Pawn', cached variable property's owner is '/Game/Mannequin/AI_Pawn.SKEL_AI_Pawn_C'
+[2015.11.15-15.36.43:477][551]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AI_Pawn', cached variable property's owner is '/Game/Mannequin/AI_Pawn.SKEL_AI_Pawn_C'
+[2015.11.15-15.37.20:254][227]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.37.20:313][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038B43240
+[2015.11.15-15.37.20:314][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A3391440
+[2015.11.15-15.37.20:315][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000A3392340
+[2015.11.15-15.37.20:315][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F578180
+[2015.11.15-15.37.20:316][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038B414E0
+[2015.11.15-15.37.20:316][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003F57B9C0
+[2015.11.15-15.37.20:317][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BF14900
+[2015.11.15-15.37.20:317][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038B41C60
+[2015.11.15-15.37.20:318][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005583E840
+[2015.11.15-15.37.20:318][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012185120
+[2015.11.15-15.37.20:319][227]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012185620
+[2015.11.15-15.37.20:327][227]BlueprintEditorCompileResults: Info [0646.97] Compile of AI_Pawn successful! [in 72 ms]
+[2015.11.15-15.37.23:863][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.23:863][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-15.37.23:863][506]PIE: New page: PIE session: AI_MockUp (Nov 15, 2015, 3:37:23 AM)
+[2015.11.15-15.37.23:863][506]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-15.37.23:879][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015958s)
+[2015.11.15-15.37.23:880][506]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-15.37.23:880][506]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2015.11.15-15.37.23:880][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016997s)
+[2015.11.15-15.37.23:907][506]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.37.23:923][506]LogInit: FAudioDevice initialized.
+[2015.11.15-15.37.23:979][506]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.37.23:981][506]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.37.24:001][506]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-15.37.24:019][506]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-15.37.24:024][506]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-15.37.24:024][506]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-09.37.24
+[2015.11.15-15.37.24:024][506]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.37.24:025][506]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.37.24:025][506]LogWorld: Bringing up level for play took: 0.004770
+[2015.11.15-15.37.24:026][506]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp -0.779
+[2015.11.15-15.37.24:026][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.26:024][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.26:114][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.26:166][736]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C83AC2C0
+[2015.11.15-15.37.27:093][830]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (SK_Mannequin)
+[2015.11.15-15.37.27:675][889]Cmd: DELETE
+[2015.11.15-15.37.27:675][889]Cmd: ACTOR DELETE
+[2015.11.15-15.37.27:675][889]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2015.11.15-15.37.27:696][889]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.11.15-15.37.35:675][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AI_Pawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset" SILENT=true
+[2015.11.15-15.37.35:696][607]LogSavePackage: Save=20.321293ms
+[2015.11.15-15.37.35:696][607]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_Pawn82A8DA1F4B6EF1D495B9F9AC8C41E653.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset'
+[2015.11.15-15.37.35:697][607]LogSavePackage: Total save time: 21.512371ms
+[2015.11.15-15.37.35:697][607]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset
+[2015.11.15-15.37.39:337][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.39:337][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-15.37.39:337][979]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 3:37:39 AM)
+[2015.11.15-15.37.39:337][979]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-15.37.39:353][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015924s)
+[2015.11.15-15.37.39:354][979]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-15.37.39:354][979]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2015.11.15-15.37.39:354][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016924s)
+[2015.11.15-15.37.39:375][979]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.37.39:380][979]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.37.39:395][979]LogInit: FAudioDevice initialized.
+[2015.11.15-15.37.39:423][979]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-15.37.39:428][979]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-15.37.39:428][979]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-09.37.39
+[2015.11.15-15.37.39:428][979]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.37.39:428][979]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.37.39:428][979]LogWorld: Bringing up level for play took: 0.005113
+[2015.11.15-15.37.39:430][979]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.625
+[2015.11.15-15.37.39:457][979]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.37.39:457][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.40:314][ 50]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:00EB
+[2015.11.15-15.37.40:314][ 50]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.40:314][ 50]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:012D
+[2015.11.15-15.37.40:314][ 50]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.41:323][127]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:00EB
+[2015.11.15-15.37.41:323][127]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.41:323][127]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:012D
+[2015.11.15-15.37.41:323][127]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.42:328][183]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:00EB
+[2015.11.15-15.37.42:328][183]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.42:328][183]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:012D
+[2015.11.15-15.37.42:328][183]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.43:330][248]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:00EB
+[2015.11.15-15.37.43:330][248]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.43:330][248]LogScript:Warning: Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue'
+	AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192
+	Function /Game/Mannequin/AI_Pawn.AI_Pawn_C:ExecuteUbergraph_AI_Pawn:012D
+[2015.11.15-15.37.43:330][248]PIE:Error: Error Accessed None 'CallFunc_CreateMoveToProxyObject_ReturnValue' from node AI MoveTo in graph 'EventGraph' in blueprint AI_Pawn
+[2015.11.15-15.37.43:530][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.43:568][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.37.43:587][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000526F0A40
+[2015.11.15-15.41.38:673][504]LogEditorViewport: Clicking on Actor (LMB): AI_Pawn_C (AI_Pawn)
+[2015.11.15-15.41.47:814][520]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.41.47:873][520]BlueprintEditorCompileResults: Info [0914.51] Compile of AI_Pawn successful! [in 59 ms]
+[2015.11.15-15.41.48:960][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.41.48:960][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-15.41.48:960][634]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 3:41:48 AM)
+[2015.11.15-15.41.48:960][634]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-15.41.48:977][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017028s)
+[2015.11.15-15.41.48:978][634]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-15.41.48:978][634]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2015.11.15-15.41.48:978][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.018053s)
+[2015.11.15-15.41.48:999][634]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.41.49:005][634]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.41.49:021][634]LogInit: FAudioDevice initialized.
+[2015.11.15-15.41.49:049][634]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-15.41.49:054][634]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-15.41.49:054][634]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-09.41.49
+[2015.11.15-15.41.49:054][634]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.41.49:054][634]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.41.49:054][634]LogWorld: Bringing up level for play took: 0.004861
+[2015.11.15-15.41.49:055][634]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.247
+[2015.11.15-15.41.49:061][634]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.41.49:061][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.41.52:420][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.41.52:453][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.41.52:472][880]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000525F2DE0
+[2015.11.15-15.41.56:918][352]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.41.56:978][352]BlueprintEditorCompileResults: Info [0923.62] Compile of AI_Pawn successful! [in 59 ms]
+[2015.11.15-15.41.58:072][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.41.58:072][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-15.41.58:072][463]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 3:41:58 AM)
+[2015.11.15-15.41.58:072][463]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-15.41.58:088][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016025s)
+[2015.11.15-15.41.58:089][463]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-15.41.58:089][463]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2015.11.15-15.41.58:089][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016949s)
+[2015.11.15-15.41.58:110][463]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.41.58:115][463]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.41.58:130][463]LogInit: FAudioDevice initialized.
+[2015.11.15-15.41.58:165][463]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-15.41.58:176][463]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-15.41.58:176][463]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-09.41.58
+[2015.11.15-15.41.58:176][463]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.41.58:176][463]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.41.58:177][463]LogWorld: Bringing up level for play took: 0.010741
+[2015.11.15-15.41.58:179][463]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp -0.628
+[2015.11.15-15.41.58:189][463]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.41.58:189][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.05:174][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.05:207][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.05:226][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EC24180
+[2015.11.15-15.42.18:137][322]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.15-15.42.24:080][876]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.42.24:141][876]BlueprintEditorCompileResults: Info [0950.78] Compile of AI_Pawn successful! [in 60 ms]
+[2015.11.15-15.42.25:806][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.25:806][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-15.42.25:806][ 21]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 3:42:25 AM)
+[2015.11.15-15.42.25:806][ 21]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-15.42.25:822][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016155s)
+[2015.11.15-15.42.25:823][ 21]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-15.42.25:823][ 21]LogPlayLevel: PIE: World Init took: (0.000719s)
+[2015.11.15-15.42.25:823][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.017063s)
+[2015.11.15-15.42.25:843][ 21]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.42.25:849][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-15.42.25:865][ 21]LogInit: FAudioDevice initialized.
+[2015.11.15-15.42.25:898][ 21]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-15.42.25:903][ 21]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-15.42.25:903][ 21]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-09.42.25
+[2015.11.15-15.42.25:903][ 21]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.42.25:903][ 21]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-15.42.25:903][ 21]LogWorld: Bringing up level for play took: 0.004897
+[2015.11.15-15.42.25:904][ 21]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 1.096
+[2015.11.15-15.42.25:910][ 21]LogSelection:Warning: PIE object was selected: "AI_Pawn_C /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.AI_Pawn_192"
+[2015.11.15-15.42.25:910][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.28:418][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.28:456][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-15.42.28:475][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000DBD86DE0
+[2015.11.15-15.43.25:185][962]LogSavePackage: Save=1007.080872ms
+[2015.11.15-15.43.25:185][962]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_MockUp_Auto1BE22972A476CB7755A022786489139E0.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/TestRooms/AI_MockUp_Auto1.umap'
+[2015.11.15-15.43.25:185][962]LogSavePackage: Total save time: 1022.636078ms
+[2015.11.15-15.43.25:185][962]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/CandleProject/Maps/TestRooms/AI_MockUp_Auto1.umap
+[2015.11.15-15.43.25:187][962]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CandleProject/Maps/TestRooms/AI_MockUp' took 1.049
+[2015.11.15-15.43.25:187][962]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.049
+[2015.11.15-15.43.25:210][962]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/AI_Pawn] ([1] browsable assets)...
+[2015.11.15-15.43.25:221][962]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Mannequin/AI_Pawn.AI_Pawn]
+[2015.11.15-15.43.25:221][962]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/AI_Pawn]
+[2015.11.15-15.43.25:221][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AI_Pawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AI_Pawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.15-15.43.25:261][962]LogSavePackage: Save=18.987545ms
+[2015.11.15-15.43.25:261][962]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_Pawn_Auto13F97B57643DEB734BC5093B0D55C122C.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AI_Pawn_Auto1.uasset'
+[2015.11.15-15.43.25:262][962]LogSavePackage: Total save time: 21.827687ms
+[2015.11.15-15.43.25:262][962]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AI_Pawn_Auto1.uasset
+[2015.11.15-15.43.25:262][962]LogFileHelpers: Auto-saving content packages took 0.056
+[2015.11.15-15.44.42:891][677]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AI_Pawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset" SILENT=true
+[2015.11.15-15.44.42:907][677]LogSavePackage: Save=12.179457ms
+[2015.11.15-15.44.42:907][677]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_Pawn2610F0B74CC05FA87B0C35A68B4846AB.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset'
+[2015.11.15-15.44.42:908][677]LogSavePackage: Total save time: 16.611282ms
+[2015.11.15-15.44.42:908][677]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset
+[2015.11.15-15.44.50:946][424]LogSCSEditor:Warning: Calling UpdateTree() from Tick() more frequently than expected due to invalid tree node state. This might be a performance issue.
+[2015.11.15-15.44.52:110][511]LogRenderer: Reallocating scene render targets to support 1516x940 (Frame:55555).
+[2015.11.15-15.44.55:808][809]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.44.55:850][809]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-15.44.55:872][809]BlueprintEditorCompileResults: Info [1102.51] Compile of AI_Pawn successful! [in 64 ms]
+[2015.11.15-15.45.27:530][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-15.45.38:746][375]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.11.15-15.45.43:391][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.11.15-15.45.47:087][ 81]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.45.47:128][ 81]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_2) Not registered. Aborting.
+[2015.11.15-15.45.47:158][ 81]BlueprintEditorCompileResults: Info [1153.79] Compile of AI_Pawn successful! [in 70 ms]
+[2015.11.15-15.45.50:996][450]LogEditorViewport: Clicking on Actor (LMB): AI_Pawn_C (AI_Pawn)
+[2015.11.15-15.46.03:567][412]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.11.15-15.46.14:051][112]BlueprintLog: New page: Compile AI_Pawn
+[2015.11.15-15.46.14:090][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-15.46.14:114][112]BlueprintEditorCompileResults: Info [1180.75] Compile of AI_Pawn successful! [in 62 ms]
+[2015.11.15-15.46.14:784][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AI_Pawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset" SILENT=true
+[2015.11.15-15.46.14:805][165]LogSavePackage: Save=18.215523ms
+[2015.11.15-15.46.14:805][165]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_Pawn78D2133E436C779F988A47B26117AE6A.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset'
+[2015.11.15-15.46.14:806][165]LogSavePackage: Total save time: 21.039270ms
+[2015.11.15-15.46.14:806][165]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AI_Pawn.uasset
+[2015.11.15-15.46.17:659][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-15.46.18:585][447]LogSavePackage: Save=906.245178ms
+[2015.11.15-15.46.18:585][447]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AI_MockUp14267878402E6A62826A9CB1AA0EA896.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/TestRooms/AI_MockUp.umap'
+[2015.11.15-15.46.18:588][447]LogSavePackage: Total save time: 910.961051ms
+[2015.11.15-15.46.18:588][447]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/TestRooms/AI_MockUp.umap
+[2015.11.15-15.46.20:283][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011F3D6C0
+[2015.11.15-15.46.20:544][635]Cmd: QUIT_EDITOR
+[2015.11.15-15.46.20:722][635]LogExit: Preparing to exit.
+[2015.11.15-15.46.21:569][635]LogExit: Editor shut down
+[2015.11.15-15.46.21:569][635]LogExit: Transaction tracking system shut down
+[2015.11.15-15.46.21:570][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000330F6CA0
+[2015.11.15-15.46.21:571][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000526F0360
+[2015.11.15-15.46.21:571][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000032F03420
+[2015.11.15-15.46.21:571][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011472340
+[2015.11.15-15.46.21:572][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000321AF880
+[2015.11.15-15.46.21:572][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003375ADE0
+[2015.11.15-15.46.21:572][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003220B380
+[2015.11.15-15.46.21:572][635]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000063F33E20
+[2015.11.15-15.46.21:737][635]LogExit: Object subsystem successfully closed.
+[2015.11.15-15.46.21:748][635]LogD3D11RHI: Shutdown
+[2015.11.15-15.46.21:748][635]LogD3D11RHI: CleanupD3DDevice
+[2015.11.15-15.46.21:801][635]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.11.15-15.46.21:812][635]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2015.11.15-15.46.21:812][635]LogModuleManager: Shutting down and abandoning module WidgetCarousel (198)
+[2015.11.15-15.46.21:812][635]LogModuleManager: Shutting down and abandoning module AddContentDialog (197)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module CrashTracker (194)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module SuperSearch (193)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module WorldBrowser (192)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module SceneOutliner (191)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module StatsViewer (190)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module FoliageEdit (189)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module LandscapeEditor (188)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module ActorPickerMode (187)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module GeometryMode (186)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module TextureAlignMode (185)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module BspMode (184)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module PlacementMode (183)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module AutomationWorker (182)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module CharacterAI (181)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module SmartSnapping (180)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module ViewportSnapping (179)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module LogVisualizer (178)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (177)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module IntroTutorials (176)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (175)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (174)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (173)
+[2015.11.15-15.46.21:813][635]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (171)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (170)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (169)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module MergeActors (168)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module SizeMap (167)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module TreeMap (166)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ReferenceViewer (165)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module LocalizationService (164)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (163)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module HardwareTargeting (162)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (161)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module UndoHistory (160)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (159)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module UserFeedback (158)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module XmlParser (157)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module Blutility (156)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (155)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (154)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module InputBindingEditor (153)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (152)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module SettingsEditor (151)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ProjectLauncher (150)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module SessionFrontend (149)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ProfilerClient (148)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (147)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module DeviceManager (146)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module AutomationController (145)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module AutomationWindow (144)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module Layers (143)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (142)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module DetailCustomizations (141)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module PackagesDialog (140)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module Persona (139)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module Kismet (138)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module GraphEditor (137)
+[2015.11.15-15.46.22:249][635]LogModuleManager: Shutting down and abandoning module ClassViewer (136)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module Toolbox (135)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module ModuleUI (134)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module MovieSceneTools (133)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module OutputLog (132)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module GammaUI (131)
+[2015.11.15-15.46.22:250][635]LogModuleManager: Shutting down and abandoning module Documentation (130)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (129)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (128)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module AnalyticsET (127)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module Analytics (126)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module AITestSuite (125)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module GameplayDebugger (124)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module AIModule (123)
+[2015.11.15-15.46.22:251][635]LogModuleManager: Shutting down and abandoning module ProfilerService (122)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module TaskGraph (121)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module SlateRemote (120)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module SteamVRController (119)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module SteamVR (118)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (117)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module OculusRift (116)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module OculusLibrary (115)
+[2015.11.15-15.46.22:454][635]LogModuleManager: Shutting down and abandoning module LeapMotionController (114)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (113)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module CableComponent (112)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (111)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module MessagingDebugger (110)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (109)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module HTML5Networking (108)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (107)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module PluginBrowser (106)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module EpicSurvey (105)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module DesktopPlatform (104)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (103)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module UObjectPlugin (102)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (101)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (100)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module SourceControl (99)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module GitSourceControl (98)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (97)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (96)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (95)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module MeshPaint (94)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module SlateReflector (93)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module MainFrame (91)
+[2015.11.15-15.46.22:459][635]LogModuleManager: Shutting down and abandoning module LevelEditor (90)
+[2015.11.15-15.46.22:460][635]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.11.15-15.46.22:466][635]LogModuleManager: Shutting down and abandoning module AssetRegistry (88)
+[2015.11.15-15.46.22:490][635]LogModuleManager: Shutting down and abandoning module ContentBrowser (87)
+[2015.11.15-15.46.22:491][635]LogModuleManager: Shutting down and abandoning module Paper2DEditor (86)
+[2015.11.15-15.46.22:491][635]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2015.11.15-15.46.22:591][635]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2015.11.15-15.46.22:591][635]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2015.11.15-15.46.22:591][635]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module Media (81)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2015.11.15-15.46.22:593][635]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2015.11.15-15.46.22:594][635]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module Core (59)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2015.11.15-15.46.22:595][635]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2015.11.15-15.46.22:596][635]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2015.11.15-15.46.22:670][635]LogDerivedDataCache: Shutdown
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2015.11.15-15.46.22:670][635]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.11.15-15.46.23:670][635]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.11.15-15.46.23:671][635]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.11.15-15.46.23:671][635]LogExit: Exiting.
+[2015.11.15-15.46.23:679][635]Log file closed, 11/15/15 09:46:23

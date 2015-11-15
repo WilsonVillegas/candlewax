@@ -1,124 +1,441 @@
-﻿[2015.11.15-15.26.33:741][  0]Log file open, 11/15/15 09:26:33
-[2015.11.15-15.26.33:741][  0]LogInit:Display: Running engine for game: CandleProject
-[2015.11.15-15.26.33:741][  0]LogInit:Display: RandInit(735682990) SRandInit(735682990).
-[2015.11.15-15.26.33:741][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2015.11.15-15.26.33:741][  0]LogStats: Stats thread started at 0.064394
-[2015.11.15-15.26.33:741][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.15-15.26.33:741][  0]LogInit: API Version: 2672455
-[2015.11.15-15.26.33:741][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
-[2015.11.15-15.26.33:741][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
-[2015.11.15-15.26.33:741][  0]LogInit: Build Configuration: Development
-[2015.11.15-15.26.33:741][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
-[2015.11.15-15.26.33:741][  0]LogInit: Command line:  
-[2015.11.15-15.26.33:741][  0]LogInit: Base directory: D:/Programs/Unreal Engine 4/Epic Games/4.9/Engine/Binaries/Win64/
-[2015.11.15-15.26.33:741][  0]LogInit: Rocket: 1
-[2015.11.15-15.26.33:747][  0]LogInit: Using libcurl 7.41.0
-[2015.11.15-15.26.33:747][  0]LogInit:  - built for x86_64-pc-win32
-[2015.11.15-15.26.33:747][  0]LogInit:  - supports SSL with WinSSL
-[2015.11.15-15.26.33:747][  0]LogInit:  - other features:
-[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_SSL
-[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_IPV6
-[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2015.11.15-15.26.33:747][  0]LogInit:      CURL_VERSION_IDN
-[2015.11.15-15.26.33:747][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2015.11.15-15.26.33:747][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2015.11.15-15.26.33:747][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2015.11.15-15.26.33:747][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2015.11.15-15.26.33:747][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2015.11.15-15.26.33:753][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2015.11.15-15.26.33:758][  0]LogInit: Object subsystem initialized
-[2015.11.15-15.26.33:759][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.15-15.26.33:759][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2015.11.15-15.26.33:768][  0]LogInit: Computer: CINDY-PC
-[2015.11.15-15.26.33:768][  0]LogInit: User: Cindy
-[2015.11.15-15.26.33:768][  0]LogInit: CPU Page size=4096, Cores=4
-[2015.11.15-15.26.33:768][  0]LogInit: High frequency timer resolution =3.904033 MHz
-[2015.11.15-15.26.33:768][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2015.11.15-15.26.33:768][  0]LogMemory: Platform Memory Stats for Windows
-[2015.11.15-15.26.33:768][  0]LogMemory: Process Physical Memory: 54.32 MB used, 54.32 MB peak
-[2015.11.15-15.26.33:768][  0]LogMemory: Process Virtual Memory: 59.16 MB used, 59.16 MB peak
-[2015.11.15-15.26.33:768][  0]LogMemory: Physical Memory: 4119.67 MB used, 16326.84 MB total
-[2015.11.15-15.26.33:768][  0]LogMemory: Virtual Memory: 339.61 MB used, 8388608.00 MB total
-[2015.11.15-15.26.33:798][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
-[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7907MB of shared system memory, 2 output[s]
-[2015.11.15-15.26.34:324][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2015.11.15-15.26.34:328][  0]LogD3D11RHI: !Direct3DDevice
-[2015.11.15-15.26.34:328][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2015.11.15-15.26.34:334][  0]LogD3D11RHI: Async texture creation enabled
-[2015.11.15-15.26.34:347][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/WorkingDirectory/5324/).
-[2015.11.15-15.26.34:347][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/tmp/CE9CA9054E1A94F69528848E23612EC8/'.
-[2015.11.15-15.26.34:347][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2015.11.15-15.26.35:180][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2015.11.15-15.26.35:184][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2015.11.15-15.26.35:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2015.11.15-15.26.35:192][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2015.11.15-15.26.35:196][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2015.11.15-15.26.35:198][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2015.11.15-15.26.35:201][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2015.11.15-15.26.35:203][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2015.11.15-15.26.35:206][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2015.11.15-15.26.35:208][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2015.11.15-15.26.35:211][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2015.11.15-15.26.35:213][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2015.11.15-15.26.35:214][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2015.11.15-15.26.35:228][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2015.11.15-15.26.35:230][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2015.11.15-15.26.35:233][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2015.11.15-15.26.35:235][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2015.11.15-15.26.35:235][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2015.11.15-15.26.35:299][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2015.11.15-15.26.35:329][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2015.11.15-15.26.35:430][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2015.11.15-15.26.35:441][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cindy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2015.11.15-15.26.35:560][  0]LogInit: Selected Device Profile: [Windows]
-[2015.11.15-15.26.35:561][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2015.11.15-15.26.35:580][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2015.11.15-15.26.35:580][  0]LogMeshUtilities: No automatic mesh merging module available
-[2015.11.15-15.26.35:827][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2015.11.15-15.26.36:384][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2015.11.15-15.26.36:507][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
-[2015.11.15-15.26.36:632][  0]SourceControl: Info Source control is disabled
-[2015.11.15-15.26.36:653][  0]SourceControl: Info Source control is disabled
-[2015.11.15-15.26.36:663][  0]SourceControl: Info Source control is disabled
-[2015.11.15-15.26.36:673][  0]SourceControl: Info Source control is disabled
-[2015.11.15-15.26.36:787][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.15-15.26.36:847][  0]LogObj: 28361 objects as part of root set at end of initial load.
-[2015.11.15-15.26.36:847][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
-[2015.11.15-15.26.36:890][  0]LogEngine: Initializing Engine...
-[2015.11.15-15.26.36:891][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
-[2015.11.15-15.26.36:892][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2015.11.15-15.26.36:985][  0]LogAIModule: Creating AISystem for world NewWorld
-[2015.11.15-15.26.36:991][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2015.11.15-15.26.37:010][  0]LogInit: FAudioDevice initialized.
-[2015.11.15-15.26.37:026][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
-[2015.11.15-15.26.37:029][  0]LogInit: Texture streaming: Enabled
-[2015.11.15-15.26.37:033][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
-[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9fcbc173422a7138b3bba1a9c3fd03f3|b24dd545970c43d78826f53370189a64|8c5db416-acae-4836-b409-4af6731ed691
-[2015.11.15-15.26.37:033][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2015.11.15-15.26.37:068][  0]LogInit: Transaction tracking system initialized
-[2015.11.15-15.26.37:090][  0]BlueprintLog: New page: Editor Load
-[2015.11.15-15.26.37:152][  0]LocalizationService: Info Localization service is disabled
-[2015.11.15-15.26.37:207][  0]LogConsoleResponse:Display: 
-[2015.11.15-15.26.37:292][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2015.11.15-15.26.37:336][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/' took 0.01s
-[2015.11.15-15.26.37:336][  0]SourceControl: Info Source control is disabled
-[2015.11.15-15.26.37:337][  0]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2015.11.15-15.26.37:337][  0]LightingResults: New page: Lighting Build
-[2015.11.15-15.26.37:339][  0]MapCheck: New page: Map Check
-[2015.11.15-15.26.37:339][  0]LightingResults: New page: Lighting Build
-[2015.11.15-15.26.37:348][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022E1A160
-[2015.11.15-15.26.37:435][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.15-15.26.37:437][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2015.11.15-15.26.37:706][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2015.11.15-15.26.37:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2015.11.15-15.26.37:712][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2015.11.15-15.26.37:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.892ms to complete.
-[2015.11.15-1
+﻿[2015.11.15-17.57.27:360][  0]Log file open, 11/15/15 11:57:27
+[2015.11.15-17.57.27:360][  0]LogInit:Display: Running engine for game: CandleProject
+[2015.11.15-17.57.27:360][  0]LogInit:Display: RandInit(1721280310) SRandInit(1721280311).
+[2015.11.15-17.57.27:360][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.11.15-17.57.27:360][  0]LogStats: Stats thread started at 0.064626
+[2015.11.15-17.57.27:360][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.15-17.57.27:360][  0]LogInit: API Version: 2672455
+[2015.11.15-17.57.27:360][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2015.11.15-17.57.27:360][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.11.15-17.57.27:360][  0]LogInit: Build Configuration: Development
+[2015.11.15-17.57.27:360][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2015.11.15-17.57.27:360][  0]LogInit: Command line:  
+[2015.11.15-17.57.27:360][  0]LogInit: Base directory: D:/Programs/Unreal Engine 4/Epic Games/4.9/Engine/Binaries/Win64/
+[2015.11.15-17.57.27:360][  0]LogInit: Rocket: 1
+[2015.11.15-17.57.27:367][  0]LogInit: Using libcurl 7.41.0
+[2015.11.15-17.57.27:367][  0]LogInit:  - built for x86_64-pc-win32
+[2015.11.15-17.57.27:367][  0]LogInit:  - supports SSL with WinSSL
+[2015.11.15-17.57.27:367][  0]LogInit:  - other features:
+[2015.11.15-17.57.27:367][  0]LogInit:      CURL_VERSION_SSL
+[2015.11.15-17.57.27:367][  0]LogInit:      CURL_VERSION_IPV6
+[2015.11.15-17.57.27:367][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.11.15-17.57.27:367][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.11.15-17.57.27:367][  0]LogInit:      CURL_VERSION_IDN
+[2015.11.15-17.57.27:367][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.11.15-17.57.27:367][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.11.15-17.57.27:367][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.11.15-17.57.27:367][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.11.15-17.57.27:367][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.11.15-17.57.27:373][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.11.15-17.57.27:379][  0]LogInit: Object subsystem initialized
+[2015.11.15-17.57.27:380][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.15-17.57.27:380][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.11.15-17.57.27:384][  0]LogInit: Computer: CINDY-PC
+[2015.11.15-17.57.27:384][  0]LogInit: User: Cindy
+[2015.11.15-17.57.27:384][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.11.15-17.57.27:384][  0]LogInit: High frequency timer resolution =3.904033 MHz
+[2015.11.15-17.57.27:384][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2015.11.15-17.57.27:384][  0]LogMemory: Platform Memory Stats for Windows
+[2015.11.15-17.57.27:384][  0]LogMemory: Process Physical Memory: 54.46 MB used, 54.46 MB peak
+[2015.11.15-17.57.27:384][  0]LogMemory: Process Virtual Memory: 57.22 MB used, 57.22 MB peak
+[2015.11.15-17.57.27:384][  0]LogMemory: Physical Memory: 4325.63 MB used, 16326.84 MB total
+[2015.11.15-17.57.27:384][  0]LogMemory: Virtual Memory: 337.68 MB used, 8388608.00 MB total
+[2015.11.15-17.57.27:426][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.11.15-17.57.27:958][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.11.15-17.57.27:958][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7907MB of shared system memory, 2 output[s]
+[2015.11.15-17.57.27:958][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.11.15-17.57.27:961][  0]LogD3D11RHI: !Direct3DDevice
+[2015.11.15-17.57.27:962][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.11.15-17.57.27:968][  0]LogD3D11RHI: Async texture creation enabled
+[2015.11.15-17.57.27:981][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/WorkingDirectory/5764/).
+[2015.11.15-17.57.27:981][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Intermediate/Shaders/tmp/0F442773436FF7B18578258AF85BB785/'.
+[2015.11.15-17.57.27:981][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.11.15-17.57.28:802][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.11.15-17.57.28:806][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.11.15-17.57.28:810][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.11.15-17.57.28:815][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.11.15-17.57.28:818][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.11.15-17.57.28:821][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.11.15-17.57.28:823][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.11.15-17.57.28:826][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.11.15-17.57.28:828][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.11.15-17.57.28:831][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.11.15-17.57.28:834][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.11.15-17.57.28:836][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.11.15-17.57.28:836][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.11.15-17.57.28:851][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.11.15-17.57.28:853][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.11.15-17.57.28:855][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.11.15-17.57.28:858][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.11.15-17.57.28:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.11.15-17.57.28:922][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Cindy/Desktop/candlewax/CandleProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.11.15-17.57.28:951][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.11.15-17.57.29:052][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.11.15-17.57.29:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Cindy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.11.15-17.57.29:180][  0]LogInit: Selected Device Profile: [Windows]
+[2015.11.15-17.57.29:180][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.11.15-17.57.29:199][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.11.15-17.57.29:199][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.11.15-17.57.29:443][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.11.15-17.57.29:989][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.11.15-17.57.30:074][  0]LogAssetRegistry: FAssetRegistry took 0.0096 seconds to start up
+[2015.11.15-17.57.30:205][  0]SourceControl: Info Source control is disabled
+[2015.11.15-17.57.30:229][  0]SourceControl: Info Source control is disabled
+[2015.11.15-17.57.30:238][  0]SourceControl: Info Source control is disabled
+[2015.11.15-17.57.30:246][  0]SourceControl: Info Source control is disabled
+[2015.11.15-17.57.30:357][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.57.30:419][  0]LogObj: 28361 objects as part of root set at end of initial load.
+[2015.11.15-17.57.30:419][  0]LogUObjectAllocator: 6038872 out of 0 bytes used by permanent object pool.
+[2015.11.15-17.57.30:462][  0]LogEngine: Initializing Engine...
+[2015.11.15-17.57.30:463][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2015.11.15-17.57.30:464][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2015.11.15-17.57.30:555][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.11.15-17.57.30:562][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-17.57.30:579][  0]LogInit: FAudioDevice initialized.
+[2015.11.15-17.57.30:596][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Cindy/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2015.11.15-17.57.30:599][  0]LogInit: Texture streaming: Enabled
+[2015.11.15-17.57.30:603][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.11.15-17.57.30:603][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2015.11.15-17.57.30:603][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 9fcbc173422a7138b3bba1a9c3fd03f3|b24dd545970c43d78826f53370189a64|8c5db416-acae-4836-b409-4af6731ed691
+[2015.11.15-17.57.30:603][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.11.15-17.57.30:638][  0]LogInit: Transaction tracking system initialized
+[2015.11.15-17.57.30:661][  0]BlueprintLog: New page: Editor Load
+[2015.11.15-17.57.30:721][  0]LocalizationService: Info Localization service is disabled
+[2015.11.15-17.57.30:777][  0]LogConsoleResponse:Display: 
+[2015.11.15-17.57.30:879][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.11.15-17.57.30:927][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/' took 0.01s
+[2015.11.15-17.57.30:927][  0]SourceControl: Info Source control is disabled
+[2015.11.15-17.57.30:927][  0]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.15-17.57.30:928][  0]LightingResults: New page: Lighting Build
+[2015.11.15-17.57.30:930][  0]MapCheck: New page: Map Check
+[2015.11.15-17.57.30:930][  0]LightingResults: New page: Lighting Build
+[2015.11.15-17.57.30:937][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000234DA160
+[2015.11.15-17.57.31:025][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonProjectile.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.57.31:027][  0]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.57.31:306][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.15-17.57.31:312][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.15-17.57.31:312][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.15-17.57.31:362][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.847ms to complete.
+[2015.11.15-17.57.31:362][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.435
+[2015.11.15-17.57.31:523][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.11.15-17.57.31:535][  0]LogCollectionManager: Loaded 0 collections in 0.001930 seconds
+[2015.11.15-17.57.31:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Collections/' took 0.01s
+[2015.11.15-17.57.31:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Developers/Cindy/Collections/' took 0.01s
+[2015.11.15-17.57.31:570][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Collections/' took 0.01s
+[2015.11.15-17.57.31:570][  0]LogContentBrowser: Native class hierarchy populated in 0.0050 seconds. Added 1869 classes and 338 folders.
+[2015.11.15-17.57.31:579][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2015.11.15-17.57.31:583][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2015.11.15-17.57.31:615][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.11.15-17.57.31:617][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.11.15-17.57.31:637][  0]LogLoad: Full Startup: 4.64 seconds (BP compile: 0.08 seconds)
+[2015.11.15-17.57.31:975][  0]LoadErrors:Error: Error /Game/FirstPersonBP/Maps/FirstPersonExampleMap : Failed import for SkeletalMeshComponent /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C:SkeletalMesh_GEN_VARIABLE
+[2015.11.15-17.57.32:016][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.11.15-17.57.32:138][  0]LogRenderer: Reallocating scene render targets to support 1516x936 (Frame:2).
+[2015.11.15-17.57.32:991][  3]LogAssetRegistry: Asset discovery search completed in 2.9270 seconds
+[2015.11.15-17.57.32:991][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.11.15-17.57.32:991][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2015.11.15-17.59.33:517][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.11.15-17.59.37:224][175]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_Jump.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:226][175]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonJump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:226][175]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonJump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:227][175]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonIdle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:228][175]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPersonRun.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:464][175]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-17.59.37:806][175]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
+[2015.11.15-18.06.02:142][348]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'AIPawn', cached variable property's owner is '/Script/Engine.Character'
+[2015.11.15-18.07.32:353][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.07.32:353][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.11.15-18.07.32:354][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.07.32:388][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.035
+[2015.11.15-18.07.32:392][792]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Mannequin/AIPawn] ([1] browsable assets)...
+[2015.11.15-18.07.32:404][792]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Mannequin/AIPawn.AIPawn]
+[2015.11.15-18.07.32:404][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/AIPawn]
+[2015.11.15-18.07.32:404][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AIPawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2015.11.15-18.07.32:434][792]LogSavePackage: Save=25.578165ms
+[2015.11.15-18.07.32:434][792]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawn_Auto1BC99D0214DF4085FAFF062907E127CFB.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AIPawn_Auto1.uasset'
+[2015.11.15-18.07.32:435][792]LogSavePackage: Total save time: 30.546874ms
+[2015.11.15-18.07.32:435][792]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/Autosaves/Game/Mannequin/AIPawn_Auto1.uasset
+[2015.11.15-18.07.32:435][792]LogFileHelpers: Auto-saving content packages took 0.047
+[2015.11.15-18.08.25:808][532]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.11.15-18.08.57:545][936]LogEditorTransaction: Undo Move Nodes
+[2015.11.15-18.08.57:964][961]LogEditorTransaction: Undo Break Pin Links
+[2015.11.15-18.09.27:185][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/Animations/ThirdPerson_AnimBP" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" SILENT=true
+[2015.11.15-18.09.27:227][ 74]LogSavePackage: Save=36.869053ms
+[2015.11.15-18.09.27:227][ 74]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/ThirdPerson_AnimBP8BC6143C4500A89161CCE28F9469F057.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2015.11.15-18.09.27:228][ 74]LogSavePackage: Total save time: 42.390268ms
+[2015.11.15-18.09.27:228][ 74]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2015.11.15-18.09.31:307][344]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.09.31:344][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.09.31:344][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.09.31:371][344]BlueprintEditorCompileResults: Info [0724.36] Compile of AIPawn successful! [in 64 ms]
+[2015.11.15-18.09.32:233][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset" SILENT=true
+[2015.11.15-18.09.32:259][423]LogSavePackage: Save=22.490845ms
+[2015.11.15-18.09.32:259][423]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawn83B3796E4874E9A30FB59899B7B16555.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset'
+[2015.11.15-18.09.32:260][423]LogSavePackage: Total save time: 26.046909ms
+[2015.11.15-18.09.32:260][423]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset
+[2015.11.15-18.10.30:438][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.10.30:438][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.10.39:011][402]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.10.39:121][402]BlueprintEditorCompileResults: Info [0792.11] Compile of AIPawn successful! [in 110 ms]
+[2015.11.15-18.10.42:792][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.15-18.10.42:792][778]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.15-18.10.42:796][778]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2015.11.15-18.10.42:850][778]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
+[2015.11.15-18.10.42:871][778]PIE: New page: SIE session: FirstPersonExampleMap (Nov 15, 2015, 6:10:42 AM)
+[2015.11.15-18.10.42:871][778]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2015.11.15-18.10.42:890][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018793s)
+[2015.11.15-18.10.42:890][778]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.11.15-18.10.42:890][778]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2015.11.15-18.10.42:891][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019737s)
+[2015.11.15-18.10.42:910][778]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint"
+[2015.11.15-18.10.42:916][778]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.10.42:931][778]LogInit: FAudioDevice initialized.
+[2015.11.15-18.10.42:971][778]LogLinker:Warning: Asset 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.11.15-18.10.42:989][778]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.10.42:993][778]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.11.15-12.10.42
+[2015.11.15-18.10.42:993][778]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.10.42:993][778]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.10.42:994][778]LogWorld: Bringing up level for play took: 0.004275
+[2015.11.15-18.10.42:995][778]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.082
+[2015.11.15-18.10.43:003][778]LogSelection:Warning: PIE object was selected: "BP_Sky_Sphere_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint"
+[2015.11.15-18.10.43:003][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.15-18.10.46:643][973]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.11.15-18.10.46:643][973]LogSelection:Warning: PIE object was selected: "TextRenderActor /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TemplateLabel"
+[2015.11.15-18.10.47:496][ 51]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.15-18.10.47:537][ 51]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2015.11.15-18.10.47:581][ 52]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000077BB87C0
+[2015.11.15-18.10.55:048][711]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.10.59:262][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset" SILENT=true
+[2015.11.15-18.10.59:287][711]LogSavePackage: Save=21.615084ms
+[2015.11.15-18.10.59:287][711]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawn8D0784544F2849C5CC1FA68A26CE1C60.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset'
+[2015.11.15-18.10.59:288][711]LogSavePackage: Total save time: 25.155526ms
+[2015.11.15-18.10.59:288][711]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset
+[2015.11.15-18.10.59:289][711]Cmd: MAP LOAD FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/CandleProject/Maps/TestRooms/AI_MockUp.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.11.15-18.10.59:289][711]LightingResults: New page: Lighting Build
+[2015.11.15-18.10.59:305][711]LoadErrors: New page: Loading map: AI_MockUp.umap
+[2015.11.15-18.10.59:306][711]MapCheck: New page: Map Check
+[2015.11.15-18.10.59:306][711]LightingResults: New page: Lighting Build
+[2015.11.15-18.10.59:306][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.10.59:306][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.10.59:324][711]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112BD080
+[2015.11.15-18.10.59:378][711]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.11.15-18.10.59:396][711]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.11.15-18.10.59:455][711]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.34ms to complete.
+[2015.11.15-18.10.59:455][711]LogFileHelpers: Loading map 'AI_MockUp' took 0.167
+[2015.11.15-18.11.01:833][957]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.01:833][957]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.11.01:833][957]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:11:01 AM)
+[2015.11.15-18.11.01:833][957]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.11.01:852][957]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018995s)
+[2015.11.15-18.11.01:852][957]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.11.01:853][957]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2015.11.15-18.11.01:853][957]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.019924s)
+[2015.11.15-18.11.01:853][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.01:853][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.11.15-18.11.01:853][957]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.01:877][957]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.11.01:892][957]LogInit: FAudioDevice initialized.
+[2015.11.15-18.11.01:922][957]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.11.01:927][957]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.11.01:927][957]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.11.01
+[2015.11.15-18.11.01:927][957]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.01:927][957]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.01:928][957]LogWorld: Bringing up level for play took: 0.005230
+[2015.11.15-18.11.01:929][957]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 1.016
+[2015.11.15-18.11.01:930][957]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.12:969][817]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.13:003][817]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.13:021][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000112BDE40
+[2015.11.15-18.11.25:534][116]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.25:535][116]BlueprintLog: New page: Pre-Play auto-recompile
+[2015.11.15-18.11.25:537][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.25:537][116]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.25:540][116]LogPlayLevel: [PlayLevel] Compiling AIPawn before play...
+[2015.11.15-18.11.25:629][116]LogPlayLevel: PlayLevel: Blueprint regeneration took 94 ms (1 blueprints)
+[2015.11.15-18.11.25:648][116]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:11:25 AM)
+[2015.11.15-18.11.25:649][116]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.11.25:664][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015056s)
+[2015.11.15-18.11.25:664][116]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.11.25:664][116]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2015.11.15-18.11.25:665][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.015982s)
+[2015.11.15-18.11.25:689][116]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.11.25:704][116]LogInit: FAudioDevice initialized.
+[2015.11.15-18.11.25:734][116]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.11.25:739][116]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.11.25:739][116]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.11.25
+[2015.11.15-18.11.25:739][116]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.25:740][116]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.25:740][116]LogWorld: Bringing up level for play took: 0.005067
+[2015.11.15-18.11.25:741][116]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.829
+[2015.11.15-18.11.25:742][116]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.45:012][649]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.45:047][649]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.45:047][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.45:047][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.45:093][650]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000069560900
+[2015.11.15-18.11.50:315][200]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.11.50:349][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.50:349][200]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.50:372][200]BlueprintEditorCompileResults: Info [0863.36] Compile of AIPawn successful! [in 56 ms]
+[2015.11.15-18.11.53:979][593]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.11.54:013][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.54:013][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.54:036][593]BlueprintEditorCompileResults: Info [0867.03] Compile of AIPawn successful! [in 57 ms]
+[2015.11.15-18.11.54:807][675]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.11.54:807][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.11.54:807][675]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:11:54 AM)
+[2015.11.15-18.11.54:807][675]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.11.54:821][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013949s)
+[2015.11.15-18.11.54:821][675]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.11.54:822][675]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2015.11.15-18.11.54:822][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.014931s)
+[2015.11.15-18.11.54:822][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.11.54:822][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.11.54:846][675]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.11.54:861][675]LogInit: FAudioDevice initialized.
+[2015.11.15-18.11.54:899][675]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.11.54:912][675]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.11.54:912][675]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.11.54
+[2015.11.15-18.11.54:912][675]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.54:913][675]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.11.54:914][675]LogWorld: Bringing up level for play took: 0.013143
+[2015.11.15-18.11.54:916][675]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.004
+[2015.11.15-18.11.54:918][675]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.12.22:445][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.12.22:480][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.12.22:498][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EEC2CA0
+[2015.11.15-18.13.00:183][291]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.13.00:217][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.13.00:218][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.13.00:240][291]BlueprintEditorCompileResults: Info [0933.23] Compile of AIPawn successful! [in 57 ms]
+[2015.11.15-18.13.01:582][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.13.01:582][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.13.01:582][437]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:13:01 AM)
+[2015.11.15-18.13.01:582][437]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.13.01:598][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016531s)
+[2015.11.15-18.13.01:599][437]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.13.01:599][437]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2015.11.15-18.13.01:599][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.017439s)
+[2015.11.15-18.13.01:599][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.13.01:599][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.13.01:626][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.13.01:641][437]LogInit: FAudioDevice initialized.
+[2015.11.15-18.13.01:672][437]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.13.01:677][437]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.13.01:677][437]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.13.01
+[2015.11.15-18.13.01:677][437]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.13.01:677][437]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.13.01:678][437]LogWorld: Bringing up level for play took: 0.005008
+[2015.11.15-18.13.01:679][437]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.766
+[2015.11.15-18.13.01:680][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.13.14:151][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.13.14:182][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.13.14:200][627]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000635ECB80
+[2015.11.15-18.13.47:629][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.13.47:629][411]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.14.04:136][253]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.14.04:171][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.11.15-18.14.04:171][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_0) Not registered. Aborting.
+[2015.11.15-18.14.04:195][253]BlueprintEditorCompileResults: Info [0997.18] Compile of AIPawn successful! [in 58 ms]
+[2015.11.15-18.14.04:779][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset" SILENT=true
+[2015.11.15-18.14.04:806][313]LogSavePackage: Save=22.737000ms
+[2015.11.15-18.14.04:806][313]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawn2D584CD94B344FACB658BF8F300D6D9A.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset'
+[2015.11.15-18.14.04:807][313]LogSavePackage: Total save time: 26.794083ms
+[2015.11.15-18.14.04:807][313]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset
+[2015.11.15-18.14.05:455][384]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.14.05:455][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.14.05:455][384]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:14:05 AM)
+[2015.11.15-18.14.05:455][384]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.14.05:470][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015311s)
+[2015.11.15-18.14.05:471][384]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.14.05:471][384]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2015.11.15-18.14.05:471][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016196s)
+[2015.11.15-18.14.05:471][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.14.05:471][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.14.05:495][384]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.14.05:511][384]LogInit: FAudioDevice initialized.
+[2015.11.15-18.14.05:542][384]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.14.05:553][384]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.14.05:553][384]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.14.05
+[2015.11.15-18.14.05:553][384]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.14.05:553][384]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.14.05:555][384]LogWorld: Bringing up level for play took: 0.011364
+[2015.11.15-18.14.05:557][384]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.643
+[2015.11.15-18.14.05:559][384]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.14.15:891][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.14.15:925][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.14.15:943][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011BCB740
+[2015.11.15-18.15.51:452][719]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.15.51:557][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.15.51:557][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.15.51:581][719]BlueprintEditorCompileResults: Info [1104.57] Compile of AIPawn successful! [in 129 ms]
+[2015.11.15-18.16.04:999][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.16.04:999][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.16.13:938][285]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.16.13:976][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.11.15-18.16.13:976][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensingComponent_1) Not registered. Aborting.
+[2015.11.15-18.16.14:000][285]BlueprintEditorCompileResults: Info [1126.99] Compile of AIPawn successful! [in 62 ms]
+[2015.11.15-18.16.14:411][327]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset" SILENT=true
+[2015.11.15-18.16.14:443][327]LogSavePackage: Save=28.309187ms
+[2015.11.15-18.16.14:443][327]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawnA091C6944C7AA056C45B8594590DA615.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset'
+[2015.11.15-18.16.14:444][327]LogSavePackage: Total save time: 32.373957ms
+[2015.11.15-18.16.14:444][327]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset
+[2015.11.15-18.16.15:538][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.15:538][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.16.15:538][442]PIE: New page: SIE session: AI_MockUp (Nov 15, 2015, 6:16:15 AM)
+[2015.11.15-18.16.15:538][442]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.16.15:554][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015650s)
+[2015.11.15-18.16.15:554][442]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.16.15:555][442]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2015.11.15-18.16.15:555][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016566s)
+[2015.11.15-18.16.15:555][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.16.15:555][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.16.15:580][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.16.15:595][442]LogInit: FAudioDevice initialized.
+[2015.11.15-18.16.15:623][442]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.16.15:628][442]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.16.15:628][442]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.16.15
+[2015.11.15-18.16.15:628][442]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.16.15:628][442]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.16.15:629][442]LogWorld: Bringing up level for play took: 0.005012
+[2015.11.15-18.16.15:630][442]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp 0.714
+[2015.11.15-18.16.15:631][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.16:490][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.16:521][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.16:540][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000992DA980
+[2015.11.15-18.16.18:418][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.18:418][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2015.11.15-18.16.18:418][705]PIE: New page: PIE session: AI_MockUp (Nov 15, 2015, 6:16:18 AM)
+[2015.11.15-18.16.18:419][705]LogPlayLevel: Creating play world package: /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp
+[2015.11.15-18.16.18:434][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015569s)
+[2015.11.15-18.16.18:435][705]LogAIModule: Creating AISystem for world AI_MockUp
+[2015.11.15-18.16.18:435][705]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2015.11.15-18.16.18:435][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp to /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp (0.016488s)
+[2015.11.15-18.16.18:460][705]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.11.15-18.16.18:475][705]LogInit: FAudioDevice initialized.
+[2015.11.15-18.16.18:505][705]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.11.15-18.16.18:509][705]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.11.15-18.16.18:510][705]LogWorld: Bringing World /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp up for play (max tick rate 0) at 2015.11.15-12.16.18
+[2015.11.15-18.16.18:510][705]LogActor:Warning: GameSession /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.16.18:510][705]LogActor:Warning: GameNetworkManager /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp.AI_MockUp:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.11.15-18.16.18:510][705]LogWorld: Bringing up level for play took: 0.005034
+[2015.11.15-18.16.18:511][705]PIE: Info Play in editor start time for /Game/CandleProject/Maps/TestRooms/UEDPIE_0_AI_MockUp -0.405
+[2015.11.15-18.16.18:511][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.53:539][512]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.53:570][512]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel' has LevelScriptBlueprint '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp' with GeneratedClass '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp_C' with ClassGeneratedBy '/Game/CandleProject/Maps/TestRooms/AI_MockUp.AI_MockUp:PersistentLevel.AI_MockUp'
+[2015.11.15-18.16.53:625][513]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012717060
+[2015.11.15-18.17.04:654][726]BlueprintLog: New page: Compile AIPawn
+[2015.11.15-18.17.04:692][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.11.15-18.17.04:692][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2015.11.15-18.17.04:714][726]BlueprintEditorCompileResults: Info [1177.70] Compile of AIPawn successful! [in 60 ms]
+[2015.11.15-18.17.05:394][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Mannequin/AIPawn" FILE="C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset" SILENT=true
+[2015.11.15-18.17.05:424][797]LogSavePackage: Save=27.167547ms
+[2015.11.15-18.17.05:424][797]LogSavePackage: Moving 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Saved/AIPawn05FD6C85479347F9FC875DAE1E62DB69.tmp' to 'C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset'
+[2015.11.15-18.17.05:425][797]LogSavePackage: Total save time: 30.773561ms
+[2015.11.15-18.17.05:425][797]LogSavePackage:Warning: Finished SavePackage C:/Users/Cindy/Desktop/candlewax/CandleProject/Content/Mannequin/AIPawn.uasset
+[2015.11.15-18.17.07:888][982]LogActorComponent:
